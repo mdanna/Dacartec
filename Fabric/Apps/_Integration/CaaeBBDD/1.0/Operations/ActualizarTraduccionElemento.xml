@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="ActualizarTraduccionElemento" passwordencrypted="false" security="authorized_app_user" type="dataAdapterConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="opcode" value="service"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="entitymetadata" value="{&quot;catalogName&quot;:&quot;EcertRelease&quot;,&quot;serviceInput&quot;:[{&quot;nullable&quot;:true,&quot;type&quot;:&quot;STRING&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;PK_Localisierungseintrag&quot;,&quot;displayName&quot;:&quot;PK_Localisierungseintrag&quot;,&quot;description&quot;:&quot;PK_Localisierungseintrag&quot;,&quot;inoutType&quot;:2,&quot;sqlDataType&quot;:1,&quot;ordinalPosition&quot;:1,&quot;typeName&quot;:&quot;uniqueidentifier&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;STRING&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;STRING&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;FK&quot;,&quot;displayName&quot;:&quot;FK&quot;,&quot;description&quot;:&quot;FK&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:1,&quot;ordinalPosition&quot;:2,&quot;typeName&quot;:&quot;uniqueidentifier&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;STRING&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;INT&quot;,&quot;length&quot;:0,&quot;precision&quot;:10,&quot;name&quot;:&quot;FK_Art&quot;,&quot;displayName&quot;:&quot;FK_Art&quot;,&quot;description&quot;:&quot;FK_Art&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:4,&quot;ordinalPosition&quot;:3,&quot;typeName&quot;:&quot;int&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;INT&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;STRING&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;Sprache1&quot;,&quot;displayName&quot;:&quot;Sprache1&quot;,&quot;description&quot;:&quot;Sprache1&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:-9,&quot;ordinalPosition&quot;:4,&quot;typeName&quot;:&quot;nvarchar&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;STRING&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;STRING&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;Bezeichnung&quot;,&quot;displayName&quot;:&quot;Bezeichnung&quot;,&quot;description&quot;:&quot;Bezeichnung&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:-9,&quot;ordinalPosition&quot;:5,&quot;typeName&quot;:&quot;nvarchar&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;STRING&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;BOOLEAN&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;Locked&quot;,&quot;displayName&quot;:&quot;Locked&quot;,&quot;description&quot;:&quot;Locked&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:-7,&quot;ordinalPosition&quot;:6,&quot;typeName&quot;:&quot;bit&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;BOOLEAN&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;DATETIME&quot;,&quot;length&quot;:3,&quot;precision&quot;:0,&quot;name&quot;:&quot;TimeStamp&quot;,&quot;displayName&quot;:&quot;TimeStamp&quot;,&quot;description&quot;:&quot;TimeStamp&quot;,&quot;inoutType&quot;:2,&quot;sqlDataType&quot;:93,&quot;ordinalPosition&quot;:7,&quot;typeName&quot;:&quot;datetime&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;DATETIME&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;STRING&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;FK_User&quot;,&quot;displayName&quot;:&quot;FK_User&quot;,&quot;description&quot;:&quot;FK_User&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:1,&quot;ordinalPosition&quot;:8,&quot;typeName&quot;:&quot;uniqueidentifier&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;STRING&quot;}],&quot;serviceOutput&quot;:[{&quot;nullable&quot;:true,&quot;type&quot;:&quot;STRING&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;PK_Localisierungseintrag&quot;,&quot;displayName&quot;:&quot;PK_Localisierungseintrag&quot;,&quot;description&quot;:&quot;PK_Localisierungseintrag&quot;,&quot;inoutType&quot;:2,&quot;sqlDataType&quot;:1,&quot;ordinalPosition&quot;:1,&quot;typeName&quot;:&quot;uniqueidentifier&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;STRING&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;DATETIME&quot;,&quot;length&quot;:3,&quot;precision&quot;:0,&quot;name&quot;:&quot;TimeStamp&quot;,&quot;displayName&quot;:&quot;TimeStamp&quot;,&quot;description&quot;:&quot;TimeStamp&quot;,&quot;inoutType&quot;:2,&quot;sqlDataType&quot;:93,&quot;ordinalPosition&quot;:7,&quot;typeName&quot;:&quot;datetime&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;DATETIME&quot;}],&quot;name&quot;:&quot;eCert_Mehrsprachigkeit@Upd&quot;,&quot;schemaName&quot;:&quot;dbo&quot;,&quot;serviceType&quot;:&quot;com.kony.rdbms.metadata.model.StoredProcMetadata&quot;}"/>
+        <config-param api-version="" appid="" name="metadataformatterobject" value="{&quot;catalogName&quot;:&quot;EcertRelease&quot;,&quot;serviceType&quot;:&quot;com.kony.rdbms.metadata.model.StoredProcMetadata&quot;,&quot;serviceOutput&quot;:[],&quot;displayName&quot;:&quot;eCert_Mehrsprachigkeit@Upd&quot;,&quot;qualifiedName&quot;:&quot;dbo.eCert_Mehrsprachigkeit@Upd&quot;,&quot;serviceInput&quot;:[],&quot;name&quot;:&quot;eCert_Mehrsprachigkeit@Upd&quot;,&quot;schemaName&quot;:&quot;dbo&quot;}"/>
+        <config-param api-version="" appid="" name="isCustomQuery" value="false"/>
+        <config-param api-version="" appid="" name="customQuery" value=""/>
+        <config-param api-version="" appid="" name="password" value="Intact@CAAE"/>
+        <config-param api-version="" appid="" name="http_auth_mode" value="none"/>
+        <config-param api-version="" appid="" name="advancedSettings" value=""/>
+        <config-param api-version="" appid="" name="jdbcUrl" value="jdbc:sqlserver://13.36.165.245:1433;databaseName=EcertRelease"/>
+        <config-param api-version="" appid="" name="jdbcClass" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+        <config-param api-version="" appid="" name="userId" value="IntactSa"/>
+        <config-param api-version="" appid="" name="maxPoolSize" value=""/>
+        <config-param api-version="" appid="" name="connectionTimeout" value=""/>
+        <config-param api-version="" appid="" name="authservicetype" value="IdentityProvider"/>
+        <config-param api-version="" appid="" name="adaptertype" value="CUSTOM"/>
+        <config-param api-version="" appid="" name="basepackage" value="com.kony.rdbms"/>
+        <config-param api-version="" appid="" name="identityProviderType" value=""/>
+        <config-param api-version="" appid="" name="identityProvider" value=""/>
+        <config-param api-version="" appid="" name="mapped_to" value="dbo.eCert_Mehrsprachigkeit@Upd"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="PK_Localisierungseintrag" order="" paramOrder="1" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="AAF3131A-CF33-4960-81A6-63A3D984BA47" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="FK" order="" paramOrder="2" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="267631CB-4288-40EE-BAB7-47D2C48837CB" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="FK_Art" order="" paramOrder="3" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="3" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="ES-ES" description="" encode="true" format="None" formatvalue="" name="Sprache1" order="" paramOrder="4" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="ES-ES" value="ES-ES" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Bezeichnung" order="" paramOrder="5" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Trigo 4" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="boolean" defaultvalue="0" description="" encode="true" format="None" formatvalue="" name="Locked" order="" paramOrder="6" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="0" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="date" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="TimeStamp" order="" paramOrder="7" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="FK_User" order="" paramOrder="8" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="B8576351-9B11-4E93-90A3-36B8F4538C5C" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="" description="" encode="false" format="" formatvalue="" name="criteria" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+    </service-input>
+    <service-output passthrough="false" isExtended="false">
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="PK_Localisierungseintrag" order="" paramOrder="1" parentOrder="0" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="date" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="TimeStamp" order="" paramOrder="2" parentOrder="0" passnull="false" sms-name="" src="" sourcevalue="" srcformatvalue="" target="response" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+    </service-output>
+</service>

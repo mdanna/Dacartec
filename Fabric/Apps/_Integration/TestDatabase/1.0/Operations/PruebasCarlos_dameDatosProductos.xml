@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="PruebasCarlos_dameDatosProductos" passwordencrypted="false" security="authorized_app_user" type="dataAdapterConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="opcode" value="service"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="entitymetadata" value="{&quot;catalogName&quot;:&quot;PruebasCarlos&quot;,&quot;serviceInput&quot;:[{&quot;nullable&quot;:true,&quot;type&quot;:&quot;INT&quot;,&quot;length&quot;:0,&quot;precision&quot;:10,&quot;name&quot;:&quot;idProducto&quot;,&quot;displayName&quot;:&quot;idProducto&quot;,&quot;description&quot;:&quot;idProducto&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:4,&quot;ordinalPosition&quot;:1,&quot;typeName&quot;:&quot;INT&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;INT&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;INT&quot;,&quot;length&quot;:0,&quot;precision&quot;:10,&quot;name&quot;:&quot;page_from&quot;,&quot;displayName&quot;:&quot;page_from&quot;,&quot;description&quot;:&quot;page_from&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:4,&quot;ordinalPosition&quot;:2,&quot;typeName&quot;:&quot;INT&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;INT&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;INT&quot;,&quot;length&quot;:0,&quot;precision&quot;:10,&quot;name&quot;:&quot;page_size&quot;,&quot;displayName&quot;:&quot;page_size&quot;,&quot;description&quot;:&quot;page_size&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:4,&quot;ordinalPosition&quot;:3,&quot;typeName&quot;:&quot;INT&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;INT&quot;}],&quot;serviceOutput&quot;:[],&quot;name&quot;:&quot;dameDatosProductos&quot;,&quot;schemaName&quot;:&quot;PruebasCarlos&quot;,&quot;serviceType&quot;:&quot;com.kony.rdbms.metadata.model.StoredProcMetadata&quot;}"/>
+        <config-param api-version="" appid="" name="metadataformatterobject" value="{&quot;catalogName&quot;:&quot;PruebasCarlos&quot;,&quot;serviceType&quot;:&quot;com.kony.rdbms.metadata.model.StoredProcMetadata&quot;,&quot;serviceOutput&quot;:[],&quot;displayName&quot;:&quot;dameDatosProductos&quot;,&quot;qualifiedName&quot;:&quot;PruebasCarlos.dameDatosProductos&quot;,&quot;serviceInput&quot;:[],&quot;name&quot;:&quot;dameDatosProductos&quot;,&quot;description&quot;:&quot;&quot;,&quot;schemaName&quot;:&quot;PruebasCarlos&quot;}"/>
+        <config-param api-version="" appid="" name="isCustomQuery" value="false"/>
+        <config-param api-version="" appid="" name="customQuery" value=""/>
+        <config-param api-version="" appid="" name="password" value="i3YyQgeppUfboZbDkeUq"/>
+        <config-param api-version="" appid="" name="http_auth_mode" value="none"/>
+        <config-param api-version="" appid="" name="advancedSettings" value=""/>
+        <config-param api-version="" appid="" name="jdbcUrl" value="jdbc:mysql://database-1.cyg5i2dreryq.eu-west-1.rds.amazonaws.com:3306"/>
+        <config-param api-version="" appid="" name="jdbcClass" value="com.mysql.jdbc.Driver"/>
+        <config-param api-version="" appid="" name="userId" value="dct_admin_volt"/>
+        <config-param api-version="" appid="" name="maxPoolSize" value=""/>
+        <config-param api-version="" appid="" name="connectionTimeout" value=""/>
+        <config-param api-version="" appid="" name="authservicetype" value="IdentityProvider"/>
+        <config-param api-version="" appid="" name="adaptertype" value="CUSTOM"/>
+        <config-param api-version="" appid="" name="basepackage" value="com.kony.rdbms"/>
+        <config-param api-version="" appid="" name="identityProviderType" value=""/>
+        <config-param api-version="" appid="" name="identityProvider" value=""/>
+        <config-param api-version="" appid="" name="mapped_to" value="PruebasCarlos.dameDatosProductos"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="idProducto" order="" paramOrder="1" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="page_from" order="" paramOrder="2" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="number" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="page_size" order="" paramOrder="3" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="" description="" encode="false" format="" formatvalue="" name="criteria" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+    </service-input>
+    <service-output passthrough="false" isExtended="false"/>
+</service>

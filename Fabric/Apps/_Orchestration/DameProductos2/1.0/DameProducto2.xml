@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="" groupType="" id="DameProducto2" passwordencrypted="" security="authorized_app_user" type="CompositeConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="exec_type" value="Concurrent"/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="1.0" appid="TestDatabase" name="service" value="PruebasCarlos_dameDatosProductos"/>
+        <config-param api-version="1.0" appid="TestDatabase" name="service" value="dameNumeroProductos"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false"/>
+    <service-output passthrough="false" isExtended="false"/>
+</service>

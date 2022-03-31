@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="Login" passwordencrypted="false" security="authorized_app_user" type="dataAdapterConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="kony_http_supported_methods" value="POST"/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="opcode" value="service"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="entitymetadata" value="{&quot;catalogName&quot;:&quot;EcertRelease&quot;,&quot;serviceInput&quot;:[{&quot;nullable&quot;:true,&quot;type&quot;:&quot;STRING&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;login&quot;,&quot;displayName&quot;:&quot;login&quot;,&quot;description&quot;:&quot;login&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:-9,&quot;ordinalPosition&quot;:1,&quot;typeName&quot;:&quot;nvarchar&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;STRING&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;STRING&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;pwd&quot;,&quot;displayName&quot;:&quot;pwd&quot;,&quot;description&quot;:&quot;pwd&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:-9,&quot;ordinalPosition&quot;:2,&quot;typeName&quot;:&quot;nvarchar&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;STRING&quot;},{&quot;nullable&quot;:true,&quot;type&quot;:&quot;STRING&quot;,&quot;length&quot;:0,&quot;precision&quot;:0,&quot;name&quot;:&quot;Version&quot;,&quot;displayName&quot;:&quot;Version&quot;,&quot;description&quot;:&quot;Version&quot;,&quot;inoutType&quot;:1,&quot;sqlDataType&quot;:-9,&quot;ordinalPosition&quot;:3,&quot;typeName&quot;:&quot;nvarchar&quot;,&quot;paramClass&quot;:&quot;com.kony.rdbms.metadata.model.ParamTypeData&quot;,&quot;fieldType&quot;:&quot;STRING&quot;}],&quot;serviceOutput&quot;:[],&quot;name&quot;:&quot;Base_Anmelden@Sel&quot;,&quot;schemaName&quot;:&quot;dbo&quot;,&quot;serviceType&quot;:&quot;com.kony.rdbms.metadata.model.StoredProcMetadata&quot;}"/>
+        <config-param api-version="" appid="" name="metadataformatterobject" value="{&quot;catalogName&quot;:&quot;EcertRelease&quot;,&quot;serviceType&quot;:&quot;com.kony.rdbms.metadata.model.StoredProcMetadata&quot;,&quot;serviceOutput&quot;:[],&quot;displayName&quot;:&quot;Base_Anmelden@Sel&quot;,&quot;qualifiedName&quot;:&quot;dbo.Base_Anmelden@Sel&quot;,&quot;serviceInput&quot;:[],&quot;name&quot;:&quot;Base_Anmelden@Sel&quot;,&quot;schemaName&quot;:&quot;dbo&quot;}"/>
+        <config-param api-version="" appid="" name="isCustomQuery" value="false"/>
+        <config-param api-version="" appid="" name="customQuery" value=""/>
+        <config-param api-version="" appid="" name="password" value="Intact@CAAE"/>
+        <config-param api-version="" appid="" name="http_auth_mode" value="none"/>
+        <config-param api-version="" appid="" name="advancedSettings" value=""/>
+        <config-param api-version="" appid="" name="jdbcUrl" value="jdbc:sqlserver://13.36.165.245:1433;databaseName=EcertRelease"/>
+        <config-param api-version="" appid="" name="jdbcClass" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+        <config-param api-version="" appid="" name="userId" value="IntactSa"/>
+        <config-param api-version="" appid="" name="maxPoolSize" value=""/>
+        <config-param api-version="" appid="" name="connectionTimeout" value=""/>
+        <config-param api-version="" appid="" name="authservicetype" value="IdentityProvider"/>
+        <config-param api-version="" appid="" name="adaptertype" value="CUSTOM"/>
+        <config-param api-version="" appid="" name="basepackage" value="com.kony.rdbms"/>
+        <config-param api-version="" appid="" name="identityProviderType" value=""/>
+        <config-param api-version="" appid="" name="identityProvider" value=""/>
+        <config-param api-version="" appid="" name="mapped_to" value="dbo.Base_Anmelden@Sel"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="login" order="" paramOrder="1" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="fmasero" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="pwd" order="" paramOrder="2" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="Teresa" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <param datatype="string" defaultvalue="" description="" encode="true" format="None" formatvalue="" name="Version" order="" paramOrder="3" parentOrder="-1" passnull="true" sms-name="" src="request" sourcevalue="" srcformatvalue="" target="request" targetdatatype="java.lang.String" testvalue="" value="" isExtended="false">
+            <accessType></accessType>
+        </param>
+        <template-param datatype="" defaultvalue="" description="" encode="false" format="" formatvalue="" name="criteria" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+    </service-input>
+    <service-output passthrough="false" isExtended="false"/>
+</service>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<service serviceGroup="" cachable="false" cacheduration="" description="" endpoint="default" groupType="" id="PruebasCarlos_CustomQuery" passwordencrypted="false" security="authorized_app_user" type="dataAdapterConnector" smscode="" smsenabled="false">
+    <service-config>
+        <config-param api-version="" appid="" name="preprocessorname" value=""/>
+        <config-param api-version="" appid="" name="postprocessorname" value=""/>
+        <config-param api-version="" appid="" name="preprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="postprocessorJS" value=""/>
+        <config-param api-version="" appid="" name="preprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="postprocessorRules" value=""/>
+        <config-param api-version="" appid="" name="endpointUrl" value=""/>
+        <config-param api-version="" appid="" name="opcode" value="service"/>
+        <config-param api-version="" appid="" name="sockettimeout" value=""/>
+        <config-param api-version="" appid="" name="entitymetadata" value="{&quot;dml&quot;:false,&quot;query&quot;:&quot;&quot;,&quot;serviceInput&quot;:[],&quot;serviceOutput&quot;:[],&quot;name&quot;:&quot;CustomQuery&quot;,&quot;schemaName&quot;:&quot;PruebasCarlos&quot;,&quot;serviceType&quot;:&quot;com.kony.rdbms.metadata.model.CustomQueryMetadata&quot;}"/>
+        <config-param api-version="" appid="" name="metadataformatterobject" value="{&quot;serviceType&quot;:&quot;com.kony.rdbms.metadata.model.CustomQueryMetadata&quot;,&quot;dml&quot;:false,&quot;serviceOutput&quot;:[],&quot;displayName&quot;:&quot;CustomQuery&quot;,&quot;qualifiedName&quot;:&quot;PruebasCarlos_CustomQuery&quot;,&quot;serviceInput&quot;:[],&quot;name&quot;:&quot;CustomQuery&quot;,&quot;schemaName&quot;:&quot;PruebasCarlos&quot;}"/>
+        <config-param api-version="" appid="" name="isCustomQuery" value="true"/>
+        <config-param api-version="" appid="" name="customQuery" value=""/>
+        <config-param api-version="" appid="" name="password" value="i3YyQgeppUfboZbDkeUq"/>
+        <config-param api-version="" appid="" name="http_auth_mode" value="none"/>
+        <config-param api-version="" appid="" name="advancedSettings" value=""/>
+        <config-param api-version="" appid="" name="jdbcUrl" value="jdbc:mysql://database-1.cyg5i2dreryq.eu-west-1.rds.amazonaws.com:3306"/>
+        <config-param api-version="" appid="" name="jdbcClass" value="com.mysql.jdbc.Driver"/>
+        <config-param api-version="" appid="" name="userId" value="dct_admin_volt"/>
+        <config-param api-version="" appid="" name="maxPoolSize" value=""/>
+        <config-param api-version="" appid="" name="connectionTimeout" value=""/>
+        <config-param api-version="" appid="" name="authservicetype" value="IdentityProvider"/>
+        <config-param api-version="" appid="" name="adaptertype" value="CUSTOM"/>
+        <config-param api-version="" appid="" name="basepackage" value="com.kony.rdbms"/>
+        <config-param api-version="" appid="" name="identityProviderType" value=""/>
+        <config-param api-version="" appid="" name="identityProvider" value=""/>
+        <config-param api-version="" appid="" name="mapped_to" value="PruebasCarlos.CustomQuery"/>
+    </service-config>
+    <service-input passthrough="false" isExtended="false">
+        <header datatype="" name="" passthrough="false" isExtended="false"/>
+        <template-param datatype="" defaultvalue="" description="" encode="false" format="" formatvalue="" name="criteria" order="" paramOrder="0" parentOrder="0" sms-name="" src="" sourcevalue="" srcformatvalue="" target="" targetdatatype="" value="" isExtended="false">
+            <accessType></accessType>
+        </template-param>
+    </service-input>
+    <service-output passthrough="false" isExtended="false"/>
+</service>

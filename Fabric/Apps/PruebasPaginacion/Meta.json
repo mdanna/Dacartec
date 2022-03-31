@@ -1,0 +1,34 @@
+{
+  "subType" : "customapp",
+  "description" : "This app is created from Studio App PruebasPaginacion.\r\n",
+  "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "CaaeBBDD",
+    "version" : "1.0",
+    "etag" : "f9884a22-6e07-44e5-9c67-7754cbb9a627"
+  }, {
+    "name" : "Test3Alfonso",
+    "version" : "1.0",
+    "etag" : "95f769f3-e56c-4637-b012-fbca8431b019"
+  }, {
+    "name" : "TestDatabase",
+    "version" : "1.0",
+    "etag" : "7cf5ab70-8a7f-4a22-b421-0a32f3ffddef"
+  } ],
+  "orchSvcs" : [ {
+    "name" : "dameRegistrosProductos",
+    "version" : "1.0",
+    "etag" : "88c16169-b25b-44a7-ba6a-c2180ea76aa8"
+  }, {
+    "name" : "DameProductos2",
+    "version" : "1.0",
+    "etag" : "6162532f-6c01-42c1-9931-2dfd02bac0be"
+  } ],
+  "objectSvcs" : [ {
+    "name" : "ObjSvcDatatableInPruebasPagi",
+    "version" : "1.0",
+    "etag" : "57080629-45a0-4be2-9f25-ce09cbd00a7f"
+  } ],
+  "identity" : [ "RepositoriUsuariosCarlos" ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

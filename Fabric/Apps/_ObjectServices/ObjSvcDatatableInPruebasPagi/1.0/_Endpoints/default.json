@@ -1,0 +1,7 @@
+{
+  "name" : "default",
+  "type" : "SAAS",
+  "encryptSecureInfo" : false,
+  "format" : "datatable",
+  "jsonpath" : false
+}
