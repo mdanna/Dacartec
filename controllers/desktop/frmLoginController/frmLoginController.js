@@ -7,6 +7,10 @@ define({
       this.onInit();
     };
     
+    this.view.preShow = () => {
+      this.onPreShow();
+    };
+    
   },
 
   onInit(){
@@ -28,6 +32,10 @@ define({
         alert(JSON.stringify(error));
       });
     };
+    
+  },
+  
+  onPreShow(){
     
   }
   
