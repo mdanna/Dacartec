@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_top_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "label": "Cultivo",
+        "placeholder": ""
+    },
+    "id": "tfCultivo",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "hca410bb12924b9fbb15e397926ac8cc",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "SearchArea",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "a621ae360e6a446e95a1e9535a3146e8",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
