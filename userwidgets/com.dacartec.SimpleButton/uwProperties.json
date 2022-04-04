@@ -1,0 +1,65 @@
+{
+    "classname": "SimpleButton",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e8e77ebf60c647d58bb6d2965620cd16",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onClick",
+                    "pw": {
+                        "displayName": "onClick",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ede7f3385ea44cdaa7744000a2645db5",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c8db6ea7b3ad49f59a347e64a3acf586",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "text",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "text",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLogin",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "b375c3c34b3f4c298fa3ef2af2417933"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dacartec",
+    "version": "1.0.0"
+}

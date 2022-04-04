@@ -29,16 +29,13 @@
     },
     "_width_": {
         "type": "string",
-        "value": "620dp"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "tfCodigo",
-        "tfCultivo",
-        "sdDeletedData",
-        "catCultivo"
+        "flxSearch",
+        "flxButtons"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -52,6 +49,27 @@
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "150dp"
+            }
+        },
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "220dp"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "360dp"
+            },
+            "layoutType": 2
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

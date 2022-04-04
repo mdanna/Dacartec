@@ -1,5 +1,7 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
         "value": "15%"
@@ -14,7 +16,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -31,30 +33,22 @@
         "type": "string",
         "value": "60%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "lblLogin"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxLogin",
+    "containerweight": 0,
+    "data": {},
+    "id": "loginButton",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c3d5f760517c4e38ad9747bfe4308a3d",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
+    "kuid": "edf13d8053bc497cb341fe78057dabcd",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
     "parent": "flxLoginBox",
     "pf": "frmLogin",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "sourceUserWidget": "ede7f3385ea44cdaa7744000a2645db5",
+    "wType": "UserWidgetInstance",
     "zindex": 1
 }

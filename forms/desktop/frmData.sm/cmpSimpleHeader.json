@@ -35,7 +35,10 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "targetForm": "frmLogin",
+        "title": "Cultivo"
+    },
     "id": "cmpSimpleHeader",
     "info": null,
     "iscustomlayout": false,

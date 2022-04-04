@@ -1,14 +1,12 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "80dp"
     },
     "_left_": {
         "type": "string",
-        "value": "320dp"
+        "value": "493dp"
     },
     "_margin_": [
         0,
@@ -16,7 +14,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -27,58 +25,68 @@
     "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "254dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "340dp"
     },
+    "allboxes": [],
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "75%"
+        "value": "50%"
     },
-    "containerweight": 0,
-    "data": {},
-    "id": "catCultivo",
+    "children": [
+        "resetButton",
+        "searchButton"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxButtons",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "aef86d8f682343cbbe77fb13c0917dc0",
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxSearch",
+    "kuid": "c48cceb1ef7a4c2d95bf5ee2231f3dd8",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "SearchArea",
     "pf": "userwidgetmodel",
     "responsiveData": {
         "b1": {
-            "centerX": {
+            "top": {
                 "type": "string",
-                "value": "87.50%"
+                "value": "70dp"
+            }
+        },
+        "b2": {
+            "left": {
+                "type": "string",
+                "value": ""
             },
             "top": {
                 "type": "string",
-                "value": "0dp"
+                "value": "140dp"
             }
         },
         "b3": {
-            "centerX": {
-                "type": "string",
-                "value": "50%"
-            },
             "left": {
                 "type": "string",
                 "value": "0dp"
             },
             "top": {
                 "type": "string",
-                "value": "210dp"
+                "value": "280dp"
             }
         }
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "aaca34e8b9704126ab2e3ba140da52cb",
-    "wType": "UserWidgetInstance",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

@@ -35,13 +35,13 @@
     },
     "breakpointInfo": {
         "b1": {
-            "width": 1366
+            "width": 1400
         },
         "b2": {
-            "width": 1024
+            "width": 1200
         },
         "b3": {
-            "width": 640
+            "width": 600
         }
     },
     "canUpdateUI": true,
@@ -56,6 +56,10 @@
             "channel": "desktop",
             "name": "frmDataController"
         }
+    },
+    "currentBreakpoint": {
+        "kuid": "b2",
+        "width": 1200
     },
     "currentLocale": "default",
     "desktopweb": {
@@ -121,6 +125,9 @@
     "titleBarSkin": "sc5d030fa2b6493bacc6a05bd9597bac",
     "titlebar": true,
     "type": 3,
+    "vizProps": {
+        "globalRespDesignEnabled": false
+    },
     "wType": "Form",
     "windows8": {
         "needAppMenu": false

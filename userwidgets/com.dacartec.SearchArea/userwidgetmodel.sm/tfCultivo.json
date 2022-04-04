@@ -34,6 +34,10 @@
         "value": "300dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "25%"
+    },
     "containerweight": 0,
     "data": {
         "label": "Cultivo",
@@ -46,8 +50,30 @@
     "kuid": "hca410bb12924b9fbb15e397926ac8cc",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "SearchArea",
+    "parent": "flxSearch",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "centerX": {
+                "type": "string",
+                "value": "37.50%"
+            },
+            "top": {
+                "type": "string",
+                "value": "0dp"
+            }
+        },
+        "b3": {
+            "centerX": {
+                "type": "string",
+                "value": "50%"
+            },
+            "top": {
+                "type": "string",
+                "value": "70dp"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

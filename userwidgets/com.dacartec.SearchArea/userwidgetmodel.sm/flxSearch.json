@@ -2,7 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "300dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -18,45 +22,41 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s7ef1ac6418a4236b5615654b52caa1d",
+    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "txtUser",
-        "txtPassword",
-        "loginButton"
+        "tfCodigo",
+        "tfCultivo",
+        "sdDeletedData",
+        "catCultivo"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxLoginBox",
+    "id": "flxSearch",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "c552a12bcf404967a1736068db2f9159",
-    "layouttype": 4,
+    "kuid": "h6ce14c93dc24a5799768f660644bbbf",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "frmLogin",
-    "pf": "frmLogin",
+    "parent": "SearchArea",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

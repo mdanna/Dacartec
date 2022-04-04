@@ -34,6 +34,10 @@
         "value": "300dp"
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "75%"
+    },
     "containerweight": 0,
     "data": {
         "label": "Deleted Data",
@@ -56,8 +60,34 @@
     "kuid": "gf2d2b1cb96a4984ad3d0dedc734f3ce",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "SearchArea",
+    "parent": "flxSearch",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "centerX": {
+                "type": "string",
+                "value": "62.50%"
+            }
+        },
+        "b3": {
+            "centerX": {
+                "type": "string",
+                "value": "50%"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "140dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "300dp"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

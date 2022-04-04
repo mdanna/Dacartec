@@ -4,11 +4,11 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
-        "value": "320dp"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -24,61 +24,85 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_right_": {
+        "type": "number",
+        "value": ""
+    },
+    "_skin_": "s6e5ea1d670c43bfb0b46a58de73e7de",
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "160dp"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "75%"
+    "centery": {
+        "type": "number",
+        "value": ""
     },
     "containerweight": 0,
-    "data": {},
-    "id": "catCultivo",
+    "data": {
+        "text": "Search"
+    },
+    "id": "searchButton",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "aef86d8f682343cbbe77fb13c0917dc0",
+    "kuid": "gadc893fdfcb454aa7a9df8535a9c7c9",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxSearch",
+    "parent": "flxButtons",
     "pf": "userwidgetmodel",
     "responsiveData": {
         "b1": {
-            "centerX": {
-                "type": "string",
-                "value": "87.50%"
-            },
-            "top": {
-                "type": "string",
-                "value": "0dp"
-            }
-        },
-        "b3": {
-            "centerX": {
+            "centerY": {
                 "type": "string",
                 "value": "50%"
             },
             "left": {
                 "type": "string",
-                "value": "0dp"
+                "value": "180dp"
+            },
+            "right": {
+                "type": "string",
+                "value": ""
+            }
+        },
+        "b2": {
+            "centerY": {
+                "type": "string",
+                "value": "50%"
+            },
+            "left": {
+                "type": "string",
+                "value": "180dp"
+            }
+        },
+        "b3": {
+            "centerY": {
+                "type": "string",
+                "value": "50%"
+            },
+            "left": {
+                "type": "string",
+                "value": "180dp"
+            },
+            "right": {
+                "type": "number",
+                "value": "0"
             },
             "top": {
                 "type": "string",
-                "value": "210dp"
+                "value": "31.25%"
             }
         }
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "aaca34e8b9704126ab2e3ba140da52cb",
+    "sourceUserWidget": "ede7f3385ea44cdaa7744000a2645db5",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

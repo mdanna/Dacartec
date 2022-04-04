@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -24,52 +24,65 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_skin_": "s6e5ea1d670c43bfb0b46a58de73e7de",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "160dp"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "25%"
+    "centery": {
+        "type": "number",
+        "value": ""
     },
     "containerweight": 0,
     "data": {
-        "label": "Código",
-        "placeholder": ""
+        "text": "Reset"
     },
-    "id": "tfCodigo",
+    "id": "resetButton",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f1b13a06b692498c9720510cf7f83f77",
+    "kuid": "ja6d3df2524e43c0858c167cd585d038",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxSearch",
+    "parent": "flxButtons",
     "pf": "userwidgetmodel",
     "responsiveData": {
         "b1": {
-            "centerX": {
+            "centerY": {
                 "type": "string",
-                "value": "12.50%"
+                "value": "50%"
+            }
+        },
+        "b2": {
+            "centerY": {
+                "type": "string",
+                "value": "50%"
             }
         },
         "b3": {
-            "centerX": {
+            "centerY": {
                 "type": "string",
                 "value": "50%"
+            },
+            "left": {
+                "type": "string",
+                "value": "0dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "31.25%"
             }
         }
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "a621ae360e6a446e95a1e9535a3146e8",
+    "sourceUserWidget": "ede7f3385ea44cdaa7744000a2645db5",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }
