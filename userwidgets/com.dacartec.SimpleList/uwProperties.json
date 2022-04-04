@@ -1,0 +1,94 @@
+{
+    "classname": "SimpleList",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "name",
+                                "columnHeaderType": "text",
+                                "columnID": "name",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "f459e8ce146c43619cbdbb869f11910d"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "displayValue",
+                                "columnHeaderType": "text",
+                                "columnID": "displayValue",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "dee2378b2b494d51abcebb45ca1dbd7f"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "ec08a5ce7edb48f2a57a37eb510f5e54",
+                    "originalPropertyKey": "columns",
+                    "propertyIndex": 1,
+                    "propertyKey": "columns",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "columns",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "a573f03d60da4961bc32884aaad9d3db",
+                    "type": "data grid",
+                    "value": 2
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{}",
+                    "group": "General",
+                    "kuid": "c888f3ac252740a3aa27bc51fbe38fc9",
+                    "originalPropertyKey": "rows",
+                    "propertyIndex": 2,
+                    "propertyKey": "rows",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "rows",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "jsonEditor-Retriever",
+                                "dataUpdaterId": "jsonEditor-Updater",
+                                "popupId": "jsonEditor-Popup",
+                                "type": "jsonEditor"
+                            }
+                        },
+                        "uiRepresentation": "Label-Button"
+                    },
+                    "srcWgtKUID": "a573f03d60da4961bc32884aaad9d3db",
+                    "type": "json",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dacartec",
+    "version": "1.0.0"
+}

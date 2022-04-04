@@ -1,0 +1,142 @@
+{
+    "classname": "SimpleDropdown",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ab7d4524a7f74505802c10d5889f72a7",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblField",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ia0bba63850d43c58b197875f6e07cea"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e8ad0a1195604b6a8eeaaaa6bbd72016",
+                    "originalPropertyKey": "masterData",
+                    "propertyIndex": 2,
+                    "propertyKey": "masterData",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "companionKeys": [
+                            {
+                                "isVisible": false,
+                                "key": "selectedKey",
+                                "originalKey": "selectedKey"
+                            },
+                            {
+                                "isVisible": false,
+                                "key": "selectedKeys",
+                                "originalKey": "selectedKeys"
+                            }
+                        ],
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "masterData",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lbxValue",
+                        "type": "data",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "Masterdata-Groupwidget",
+                                "dataUpdaterId": "Masterdata-Groupwidget",
+                                "popupId": "Masterdata-Groupwidget",
+                                "type": "GroupWidgetMasterDataBtn"
+                            },
+                            "Label": {}
+                        },
+                        "uiRepresentation": "Label-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "ic4ee3cb951b47fa9aa5bc3b0ad9322d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a634cf2a726d407da9cd0b932168051b",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 3,
+                    "propertyKey": "listValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "listValue",
+                        "isDependentProp": true,
+                        "isHiddenInTool": false,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "lbxValue",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "ic4ee3cb951b47fa9aa5bc3b0ad9322d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "cbd3505e6cca4be29203adf8277483df",
+                    "originalPropertyKey": "selectedKey",
+                    "propertyIndex": 2,
+                    "propertyKey": "selectedKey",
+                    "pw": {
+                        "isHiddenInTool": true
+                    },
+                    "srcWgtKUID": "ic4ee3cb951b47fa9aa5bc3b0ad9322d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d9fa757ef5894c8e90e9ee69c7bf885b",
+                    "originalPropertyKey": "selectedKeys",
+                    "propertyIndex": 2,
+                    "propertyKey": "selectedKeys",
+                    "pw": {
+                        "isHiddenInTool": true
+                    },
+                    "srcWgtKUID": "ic4ee3cb951b47fa9aa5bc3b0ad9322d"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dacartec",
+    "version": "1.0.0"
+}

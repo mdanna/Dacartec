@@ -3,11 +3,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
-        "value": "115dp"
+        "value": "0dp"
     },
     "_margin_": [
         1,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s6cd4815628049989c302d8b7b45119a",
-    "_text_": "Go to Login form",
+    "_skin_": "s68fa0868d16440f990784a407e61493",
+    "_text_": "Label",
     "_top_": {
         "type": "string",
-        "value": "30dp"
+        "value": "0dp"
     },
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -39,17 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "lbl1",
+    "contentalignment": 4,
+    "id": "lblField",
     "info": null,
     "ipad": {
         "psp": {
@@ -63,13 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "iae5e7282d544ac781b39e578bb12b5c",
+    "kuid": "ia0bba63850d43c58b197875f6e07cea",
     "name": "kony.ui.Label",
-    "parent": "flx1",
-    "pf": "frmData",
-    "responsiveData": {
-        "b1": {}
-    },
+    "parent": "SimpleDropdown",
+    "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

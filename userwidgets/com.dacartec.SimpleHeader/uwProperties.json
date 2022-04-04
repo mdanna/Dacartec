@@ -1,0 +1,69 @@
+{
+    "classname": "SimpleHeader",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "e680d4b4843a41579ee840c1077f1fe5",
+                    "originalPropertyKey": "targetForm",
+                    "propertyIndex": 2,
+                    "propertyKey": "targetForm",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "targetForm",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "jd93b55efa56469fb508e6f8029c05bb",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "fc3dba0e30db486d8c1a2c6f318eee4b",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "title",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "title",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "bc7613a343c34c32b49dc3a4f725366f"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dacartec",
+    "version": "1.0.0"
+}

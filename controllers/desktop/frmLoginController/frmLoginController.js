@@ -26,7 +26,11 @@ define({
     };
     
     this.view.flxLogin.onClick = () => {
-      mbaas.login(this.view.txtUser.text, this.view.txtPassword.text).then((result) => {
+      const userid = this.view.txtUser.text;
+      const password = this.view.txtPassword.text;
+      mbaas.login(userid, password).then((result) => {
+        voltmx.store.setItem('userid', userid);
+        voltmx.store.setItem('password', password);
         new voltmx.mvc.Navigation('frmData').navigate();
       }). catch((error) => {
         alert(JSON.stringify(error));
@@ -36,7 +40,8 @@ define({
   },
   
   onPreShow(){
-    
+    this.view.txtUser.text = voltmx.store.getItem('userid') || '';
+    this.view.txtPassword.text = voltmx.store.getItem('password') || '';
   }
   
   

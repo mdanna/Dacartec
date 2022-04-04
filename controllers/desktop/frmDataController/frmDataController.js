@@ -25,9 +25,6 @@ define({
     //this code is executed once at view initialization time
     //you put here the definition of the event handlers
 
-    this.view.flx1.onClick = () => {
-      new voltmx.mvc.Navigation('frmLogin').navigate();
-    };
   },
 
   onPreShow(){
@@ -38,7 +35,7 @@ define({
 
     voltmx.application.showLoadingScreen(null, "Loading...", constants.LOADING_SCREEN_POSITION_FULL_SCREEN, false, true, {});
 
-    mbaas.invokeOperation(mbaas.SERVICE, 'Obtenercultivo', {}, {
+    mbaas.invokeOperation(mbaas.SERVICE, 'ConsultaCultivos', {}, {
       PK_Kulturstamm:"B9C054A2-9E72-4B9E-89AC-DCC05BD7A1E2",
       Sprache:"ES-ES"
     }).then((results) => {
@@ -50,20 +47,6 @@ define({
       alert(JSON.stringify(error));
       voltmx.application.dismissLoadingScreen();
     });
-
-
-    //    const integrationSvc = VMXFoundry.getIntegrationService('MyService');
-
-    //    integrationSvc.invokeOperation('myOperation', {}, {id: 1}, (response) => {
-    //      //success branch, access the response to do something with the data
-
-    //      voltms.application.dismissLoadingScreen();
-    //    }, (error) => {
-    //      //log the error and display an alert to the user
-
-    //      voltms.application.dismissLoadingScreen();
-    //    });
-
 
   },
 
