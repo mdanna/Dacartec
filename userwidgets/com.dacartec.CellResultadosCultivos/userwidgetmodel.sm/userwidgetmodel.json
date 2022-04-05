@@ -33,7 +33,7 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "SimpleListHeaderElement"
+        "CellResultadosCultivos"
     ],
     "containerweight": 100,
     "currentLocale": "default",
@@ -49,7 +49,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "u06709a2fc7049d59b840b9ffec7c5b7",
+    "kuid": "bfff65ce86194b83b2712f6eceb0d09f",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.Form2",

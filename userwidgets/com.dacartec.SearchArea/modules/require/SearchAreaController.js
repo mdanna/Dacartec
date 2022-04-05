@@ -8,7 +8,7 @@ define(function() {
                 this.view.searchButton.onClick = () => {
                   eventManager.publish('event_search_cultivos', {
                     Code: this.view.tfCodigo.text || '0',
-                    ProductName: this.view.tfCultivo.text || null,
+                    ProduktName: this.view.tfCultivo.text || null,
                     FK_Kulturkategorie: this.view.catCultivo.selection || '0',
                     Deleted: this.view.sdDeletedData.selectedKey === 'true'
                   });
@@ -22,7 +22,7 @@ define(function() {
                   
                   eventManager.publish('event_search_cultivos', {
                     Code: '0',
-                    ProductName: null,
+                    ProduktName: null,
                     FK_Kulturkategorie: null,
                     Deleted: false
                   });

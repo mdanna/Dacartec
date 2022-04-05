@@ -33,7 +33,7 @@ define(function() {
               
               this.loadData({
                 Code: '0',
-                ProductName: null,
+                ProduktName: null,
                 FK_Kulturkategorie: null,
                 Deleted: false
               });

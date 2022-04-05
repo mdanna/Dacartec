@@ -24,6 +24,12 @@ define({
   onInit(){
     //this code is executed once at view initialization time
     //you put here the definition of the event handlers
+    
+    this.view.doLayout = () => {
+      const frmHeight = this.view.frame.height;
+      
+      this.view.cmpResultadosCultivos.height = (frmHeight - parseInt(this.view.cmpResultadosCultivos.top.replace('dp', ''))) + 'dp';
+    };
 
   },
 

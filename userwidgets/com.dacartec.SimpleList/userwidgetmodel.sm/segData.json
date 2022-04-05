@@ -74,6 +74,7 @@
         ],
         "rowTemplateId": "h3f28fc2083e4888ba96abfb97ffc54c",
         "rowtemplate": "Flex0e9d30cfee19b4d",
+        "sectionHeaderTemplateId": null,
         "widgetdatamap": {
             "flxConsultaCultivos": "flxConsultaCultivos",
             "lblCategoriaCultivo": "lblCategoriaCultivo",
@@ -127,7 +128,7 @@
     "selectedindex": null,
     "selectedindices": null,
     "selecteditems": null,
-    "selectedsectionindex": null,
+    "selectedsectionindex": 0,
     "selectionbehavior": "default",
     "separatorcolor": "aaaaaa00",
     "separatorrequired": true,
@@ -138,7 +139,12 @@
     "wType": "Segment",
     "widgetalignment": 5,
     "widgetdatamap": {
-        "Flex0e9d30cfee19b4d": "Flex0e9d30cfee19b4d"
+        "flxConsultaCultivos": "flxConsultaCultivos",
+        "lblCategoriaCultivo": "lblCategoriaCultivo",
+        "lblCode": "lblCode",
+        "lblComentario": "lblComentario",
+        "lblCropCategory": "lblCropCategory",
+        "lblCultivo": "lblCultivo"
     },
     "zindex": 1
 }

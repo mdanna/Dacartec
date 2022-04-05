@@ -1,0 +1,67 @@
+{
+    "classname": "RowResultadosCultivos",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "fe0d6ee2ab1440c5a4bf203ea25125e8",
+                    "originalPropertyKey": "rowId",
+                    "propertyIndex": 2,
+                    "propertyKey": "rowId",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "rowId",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "eafcb105f78f416a98a598bfd31fb50c",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "df40f2e1b9d34ba58fe44c35ee36f5a3",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skinRow",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "skinRow",
+                        "isHiddenInTool": false,
+                        "srcWidget": "RowResultadosCultivos",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "eafcb105f78f416a98a598bfd31fb50c"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dacartec",
+    "version": "1.0.0"
+}

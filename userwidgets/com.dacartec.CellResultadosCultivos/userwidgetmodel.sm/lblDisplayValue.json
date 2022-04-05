@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "94dp"
     },
     "_margin_": [
         1,
@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s3ebf907b92a4cc7ba8f960e75dbbcdc",
-    "_text_": "Label",
+    "_skin_": "s68fa0868d16440f990784a407e61493",
+    "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "11dp"
     },
     "_width_": {
         "type": "string",
@@ -39,6 +39,10 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -59,9 +63,9 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "b16353f6af8e430bb769a33eb351f856",
+    "kuid": "cdfcd8bf1d234b9991b7ba7847ffdcf1",
     "name": "kony.ui.Label",
-    "parent": "SimpleListHeaderElement",
+    "parent": "CellResultadosCultivos",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -1,0 +1,74 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "cmpResultadosCultivos",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "h18d4c1017204e668a84140f60392745",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmData",
+    "pf": "frmData",
+    "responsiveData": {
+        "b1": {
+            "top": {
+                "type": "string",
+                "value": "220dp"
+            }
+        },
+        "b2": {
+            "top": {
+                "type": "string",
+                "value": "290dp"
+            }
+        },
+        "b3": {
+            "top": {
+                "type": "string",
+                "value": "430dp"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "i16261a5259a45dabf6e79c29d5b2a6d",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}
