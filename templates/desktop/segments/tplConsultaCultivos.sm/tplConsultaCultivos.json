@@ -1,5 +1,5 @@
 {
-    "@class": "com.kony.gen.viz.model.container.KVizForm",
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
     "_margin_": [
         0,
@@ -33,14 +33,15 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "SimpleTextField"
+        "flxConsultaCultivos"
     ],
+    "containerId": true,
     "containerweight": 100,
     "currentLocale": "default",
     "device": "desktopweb",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "id": "userwidgetmodel",
+    "id": "tplConsultaCultivos",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -49,9 +50,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ub8e12ad5c384679b157d52f20c9f8c1",
-    "layouttype": 2,
-    "masterType": 1,
+    "kuid": "h3f28fc2083e4888ba96abfb97ffc54c",
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "outtransitionconfig": {

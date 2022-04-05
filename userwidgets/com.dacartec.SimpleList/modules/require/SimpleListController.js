@@ -3,6 +3,21 @@ define(function() {
 	return {
 		constructor: function(baseConfig, layoutConfig, pspConfig) {
 			this.view.preShow = () => {
+              
+              if(!this.initDone){
+                this.view.segData.widgetDataMap = {
+                  lblCode: 'Code',
+                  lblCultivo: 'ProduktName',
+                  lblCropCategory: 'CodeKulturKategorie',
+                  lblCategoriaCultivo: 'Bezeichnung',
+                  lblComentario: 'Anmerkung'
+                };
+                
+                eventManager.subscribe('event_search_cultivos', (searchArgs) => this.loadData(searchArgs));
+                
+                this.initDone = true;
+              }
+              
               //reset the flxHeader content
               this.view.flxHeader.removeAll();
               
@@ -14,6 +29,13 @@ define(function() {
                 }, {}, {});
                 simpleListHeaderElement.displayValue = element.displayValue;
                 this.view.flxHeader.add(simpleListHeaderElement);
+              });
+              
+              this.loadData({
+                Code: '0',
+                ProductName: null,
+                FK_Kulturkategorie: null,
+                Deleted: false
               });
             };
 		},
@@ -31,6 +53,17 @@ define(function() {
             defineSetter(this, 'rows', value => {
                 this._rows = value;
             });
-        }
+        },
+      
+      loadData(args){
+        mbaas.invokeOperation(mbaas.SERVICE, 'ConsultaCultivos', {}, args).then((results) => {
+          //this corresponds to the resolve branch
+          this.view.segData.setData(results.records);
+          //kony.print(JSON.stringify(results));
+        }).catch((error) => {
+          //this corresponds to the reject;
+          alert(JSON.stringify(error));
+        });
+      }
 	};
 });

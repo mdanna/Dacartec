@@ -27,7 +27,13 @@ define(function() {
       defineSetter(this, 'values', values => {
         this._values = values;
         //initialise the list with the right key/value pairs taken from 'values
-		this.initListBox();
+        this.initListBox();
+      });
+      defineGetter(this, 'selection', () => {
+        return this.view.lbxValue.selectedKey;
+      });
+      defineSetter(this, 'selection', value => {
+        this.view.lbxValue.selectedKey = value || '0';
       });
     },
 
@@ -38,6 +44,12 @@ define(function() {
         masterDataValues.push([row.code, row.name]);
       });
       this.view.lbxValue.masterData = masterDataValues;
+    },
+    
+    reset(){
+      this.view.txtFilter.text = '';
+      this.selection = '0';
     }
+    
   };
 });

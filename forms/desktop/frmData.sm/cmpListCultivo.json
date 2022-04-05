@@ -4,7 +4,11 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "140dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -23,52 +27,60 @@
     "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 0,
     "data": {},
-    "id": "cmpSearchArea",
+    "id": "cmpListCultivo",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "a2938fd7c6ae4e84857475b2d6d18774",
+    "kuid": "f36cbbf3072b4ef495335cf9d2159f47",
     "masterType": 1,
+    "minwidth": {
+        "type": "number",
+        "value": ""
+    },
     "name": "kony.ui.UserWidgetInstance",
     "parent": "frmData",
     "pf": "frmData",
     "responsiveData": {
         "b1": {
-            "height": {
-                "type": "string",
-                "value": "150dp"
-            }
-        },
-        "b2": {
-            "height": {
+            "top": {
                 "type": "string",
                 "value": "220dp"
             }
         },
-        "b3": {
-            "height": {
+        "b2": {
+            "minWidth": {
                 "type": "string",
-                "value": "360dp"
+                "value": "1000dp"
+            },
+            "top": {
+                "type": "string",
+                "value": "290dp"
+            }
+        },
+        "b3": {
+            "top": {
+                "type": "string",
+                "value": "430dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "1000dp"
             }
         }
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "d0e435405d6a494bad01b8b66b96fa8d",
+    "sourceUserWidget": "a573f03d60da4961bc32884aaad9d3db",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

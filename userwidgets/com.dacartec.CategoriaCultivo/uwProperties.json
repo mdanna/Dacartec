@@ -2,7 +2,20 @@
     "classname": "CategoriaCultivo",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b38932948e7c4293a32b56b12f471583",
+                    "paramList": [],
+                    "propertyKey": "reset",
+                    "pw": {
+                        "displayName": "reset",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "aaca34e8b9704126ab2e3ba140da52cb",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -10,7 +23,9 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []
@@ -173,12 +188,30 @@
                     "propertyIndex": 4,
                     "propertyKey": "values",
                     "pw": {
+                        "dependencyConditions": {},
                         "displayName": "values",
                         "uiRepresentation": "Label-DataGrid"
                     },
                     "srcWgtKUID": "aaca34e8b9704126ab2e3ba140da52cb",
                     "type": "data grid",
                     "value": 3
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "b95f7ad6197b481593a9c3cbc8481b10",
+                    "originalPropertyKey": "selection",
+                    "propertyIndex": 5,
+                    "propertyKey": "selection",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selection",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "aaca34e8b9704126ab2e3ba140da52cb",
+                    "type": "string",
+                    "value": ""
                 }
             ],
             "passthrough": [

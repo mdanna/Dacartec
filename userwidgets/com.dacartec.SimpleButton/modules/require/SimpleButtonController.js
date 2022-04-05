@@ -9,8 +9,9 @@ define(function() {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
       this.view.preShow = () => {
         if(!this.initDone){
-          this.view.onClick = () => this.onClick();
-
+          this.view.onClick = () => {
+            this.onClick();
+          };
           this.view.onHover = (flex, context) => {
             if(context.eventType === constants.ONHOVER_MOUSE_LEAVE){
               this.view.skin = SKIN_FLEX_UNSELECTED;

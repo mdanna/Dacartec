@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "93%"
+        "value": "80dp"
     },
     "_left_": {
         "type": "string",
@@ -32,29 +32,39 @@
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "segData"
+        "lblCode",
+        "lblCultivo",
+        "lblCropCategory",
+        "lblCategoriaCultivo",
+        "lblComentario"
     ],
     "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "flxConsultaCultivosController"
+        }
+    },
     "enablescrolling": true,
-    "id": "flxData",
+    "id": "flxConsultaCultivos",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "hf5e7eefddfc4c6598ad448fed445557",
+    "kuid": "c27f3a2505554eeaa628bcb4fe927d69",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContent",
-    "pf": "userwidgetmodel",
+    "parent": "tplConsultaCultivos",
+    "pf": "tplConsultaCultivos",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }
