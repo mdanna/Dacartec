@@ -36,6 +36,65 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
+        "apiName": "ConsultaCultivos",
+        "columns": {
+            "data": [
+                {
+                    "hidden": "",
+                    "key": "Code",
+                    "name": "Código"
+                },
+                {
+                    "hidden": "",
+                    "key": "ProduktName",
+                    "name": "Cultivo"
+                },
+                {
+                    "hidden": "",
+                    "key": "CodeKulturKategorie",
+                    "name": "Code crop category"
+                },
+                {
+                    "hidden": "",
+                    "key": "Bezeichnung",
+                    "name": "Categoria de cultivo"
+                },
+                {
+                    "hidden": "",
+                    "key": "Anmerkung",
+                    "name": "Comentario"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "key",
+                    "columnHeaderType": "text",
+                    "columnID": "key",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "c8aa55f803e243a3a258ea7d80795ba6"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "name",
+                    "columnHeaderType": "text",
+                    "columnID": "name",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "jc1253dcb6f94b02b8946471b0b84774"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "hidden",
+                    "columnHeaderType": "text",
+                    "columnID": "hidden",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "f691f589fe2e4ae595ee2469e5370793"
+                }
+            ]
+        },
         "datasetName": "Cultivo"
     },
     "id": "cmpResultadosCultivos",

@@ -1,0 +1,111 @@
+{
+    "classname": "Results",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "h04781370bad49cb922de240970bbed5",
+                    "originalPropertyKey": "datasetName",
+                    "propertyIndex": 1,
+                    "propertyKey": "datasetName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "datasetName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "i16261a5259a45dabf6e79c29d5b2a6d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "cbb7b877504b4aa8bee764cbd7ea565e",
+                    "originalPropertyKey": "apiName",
+                    "propertyIndex": 2,
+                    "propertyKey": "apiName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "apiName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "i16261a5259a45dabf6e79c29d5b2a6d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "key",
+                                "columnHeaderType": "text",
+                                "columnID": "key",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "c8aa55f803e243a3a258ea7d80795ba6"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "name",
+                                "columnHeaderType": "text",
+                                "columnID": "name",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "jc1253dcb6f94b02b8946471b0b84774"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "hidden",
+                                "columnHeaderType": "text",
+                                "columnID": "hidden",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "f691f589fe2e4ae595ee2469e5370793"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "ab1496f6998146ee9d15f5328efe581f",
+                    "originalPropertyKey": "columns",
+                    "propertyIndex": 3,
+                    "propertyKey": "columns",
+                    "pw": {
+                        "displayName": "columns",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "i16261a5259a45dabf6e79c29d5b2a6d",
+                    "type": "data grid",
+                    "value": 3
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dacartec",
+    "version": "1.0.0"
+}
