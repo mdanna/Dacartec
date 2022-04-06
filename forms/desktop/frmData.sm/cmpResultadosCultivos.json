@@ -62,6 +62,10 @@
             "top": {
                 "type": "string",
                 "value": "430dp"
+            },
+            "width": {
+                "type": "string",
+                "value": "100%"
             }
         }
     },

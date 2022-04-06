@@ -29,18 +29,14 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "1200dp"
     },
     "allboxes": [],
     "allowhorizontalbounce": false,
     "allowverticalbounce": true,
     "bounces": true,
     "canUpdateUI": true,
-    "children": [
-        "RowResultadosCultivos",
-        "CopyRowResultadosCultivos0ed6e51f5915b41",
-        "CopyRowResultadosCultivos0b2536cf6aa8a41"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "decelerat": false,
@@ -57,6 +53,14 @@
     "pagingenabled": false,
     "parent": "flxList",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

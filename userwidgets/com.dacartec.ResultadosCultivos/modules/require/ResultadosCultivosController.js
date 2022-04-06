@@ -39,12 +39,15 @@ define(function() {
 		},
       
         loadData(args){
+          voltmx.application.showLoadingScreen(null, '', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, {});
+          
           mbaas.invokeOperation(mbaas.SERVICE, 'ConsultaCultivos', {}, args).then((results) => {
             //this has to fill the component
             this.view.flxContent.removeAll();
             results.records.forEach((row, index) => {
               const cmpRow = new com.dacartec.RowResultadosCultivos({
-                id: `rowResultadosCultivos${index}`
+                id: `rowResultadosCultivos${index}`,
+                skin: index % 2 === 0 ? 'sknFlxLightGrey': 'sknFlxVeryLightBlue'
               }, {}, {});
               
               const rowHeaders = ['Code', 'ProduktName', 'CodeKulturKategorie', 'Bezeichnung', 'Anmerkung'];
@@ -58,12 +61,13 @@ define(function() {
               });
               
               this.view.flxContent.add(cmpRow);
-              //cmpRow.skinRow = index % 2 === 0 ? 'sknFlxLightGrey': 'sknFlxVeryLightBlue';
-
             });
+            
+            voltmx.application.dismissLoadingScreen();
 
           }).catch((error) => {
             //this corresponds to the reject;
+            voltmx.application.dismissLoadingScreen();
             alert(JSON.stringify(error));
           });
         }

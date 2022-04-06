@@ -61,28 +61,18 @@
     "parent": "ResultadosCultivos",
     "pf": "userwidgetmodel",
     "responsiveData": {
-        "b1": {
-            "width": {
-                "type": "string",
-                "value": "100%"
-            }
-        },
+        "b1": {},
         "b2": {
             "minWidth": {
                 "type": "string",
-                "value": "1200dp"
+                "value": ""
             },
             "width": {
                 "type": "string",
                 "value": "100%"
             }
         },
-        "b3": {
-            "width": {
-                "type": "string",
-                "value": "1000dp"
-            }
-        }
+        "b3": {}
     },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

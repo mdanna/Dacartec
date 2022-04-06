@@ -21,7 +21,7 @@
         0,
         0
     ],
-    "_skin_": "s3ebf907b92a4cc7ba8f960e75dbbcdc",
+    "_skin_": "s8bb747423374ab08642e68bdf227667",
     "_text_": "Label",
     "_top_": {
         "type": "string",
@@ -39,6 +39,10 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"

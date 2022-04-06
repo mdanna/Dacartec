@@ -22,14 +22,14 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_skin_": "sd7d8fd2854e463ea9bb87d0ac3aeadd",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "1200dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
@@ -47,6 +47,15 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxList",
     "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        },
+        "b3": {}
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
