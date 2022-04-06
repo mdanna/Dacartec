@@ -1,0 +1,104 @@
+{
+    "classname": "Pagination",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": 10,
+                    "group": "General",
+                    "kuid": "ia631e5840a24d168b6ccbb98ee0d03d",
+                    "originalPropertyKey": "pageSize",
+                    "propertyIndex": 1,
+                    "propertyKey": "pageSize",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "pageSize",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "ca8738fc0e0c4e0c8af49b903299a88c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 1,
+                    "group": "General",
+                    "kuid": "c8b332ad4f38487faa3b7fee538adec0",
+                    "originalPropertyKey": "pageNumber",
+                    "propertyIndex": 2,
+                    "propertyKey": "pageNumber",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "pageNumber",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "ca8738fc0e0c4e0c8af49b903299a88c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": 1,
+                    "group": "General",
+                    "kuid": "d5753089fe7149f2a6fe63af7e52c6ab",
+                    "originalPropertyKey": "count",
+                    "propertyIndex": 3,
+                    "propertyKey": "count",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "count",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Textbox",
+                        "validationData": "^(\\+|-)?\\d+$"
+                    },
+                    "srcWgtKUID": "ca8738fc0e0c4e0c8af49b903299a88c",
+                    "type": "integer",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "Cultivo",
+                    "group": "General",
+                    "kuid": "g11eec56bdb24514b3b68759e3b92943",
+                    "originalPropertyKey": "datasetName",
+                    "propertyIndex": 4,
+                    "propertyKey": "datasetName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "datasetName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ca8738fc0e0c4e0c8af49b903299a88c",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dacartec",
+    "version": "1.0.0"
+}

@@ -24,11 +24,9 @@ define({
   onInit(){
     //this code is executed once at view initialization time
     //you put here the definition of the event handlers
-    
+
     this.view.doLayout = () => {
-      const frmHeight = this.view.frame.height;
-      
-      this.view.cmpResultadosCultivos.height = (frmHeight - parseInt(this.view.cmpResultadosCultivos.top.replace('dp', ''))) + 'dp';
+      this.resizeResultadosCultivos();
     };
 
   },
@@ -47,5 +45,22 @@ define({
 
     //use this.navigationContext to access the arg passed by the Navigation object
 
+  },
+
+  resizeResultadosCultivos(){
+    const frmHeight = this.view.frame.height;
+    let top;
+    const currentBreakpoint = voltmx.application.getCurrentBreakpoint();
+    if(currentBreakpoint === 600){
+      top = 430;
+    } else if(currentBreakpoint === 1200){
+      top = 290;
+    } else {
+      top = 220;
+    }
+    
+    if(frmHeight > 0){
+      this.view.cmpResultadosCultivos.height = (frmHeight - top) + 'dp';
+    }
   }
 });

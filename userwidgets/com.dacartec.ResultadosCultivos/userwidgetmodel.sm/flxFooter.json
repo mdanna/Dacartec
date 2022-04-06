@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "10%"
     },
     "_left_": {
         "type": "string",
@@ -22,10 +22,10 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_skin_": "sd7d8fd2854e463ea9bb87d0ac3aeadd",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "90%"
     },
     "_width_": {
         "type": "string",
@@ -35,20 +35,19 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxList",
-        "flxFooter"
+        "Pagination"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "ResultadosCultivos",
+    "id": "flxFooter",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i16261a5259a45dabf6e79c29d5b2a6d",
+    "kuid": "f3da33527c734ebca3c510c6cb8908ae",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "ResultadosCultivos",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -29,26 +29,25 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "130dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxList",
-        "flxFooter"
+        "lblPageInfo"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "ResultadosCultivos",
+    "id": "flxPageInfo",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i16261a5259a45dabf6e79c29d5b2a6d",
+    "kuid": "dc7775e26f7d48b59d7b830514951ece",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "Pagination",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

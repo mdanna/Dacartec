@@ -63,6 +63,11 @@ define(function() {
               this.view.flxContent.add(cmpRow);
             });
             
+            eventManager.publish('loadData', {
+              datasetName: 'Cultivo',
+              count: results.records.length,
+              pageNumber: 1
+            });
             voltmx.application.dismissLoadingScreen();
 
           }).catch((error) => {

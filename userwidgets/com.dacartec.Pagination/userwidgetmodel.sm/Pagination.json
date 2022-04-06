@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -29,24 +29,31 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "250dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "children": [
-        "flxList",
-        "flxFooter"
+        "flxGoTop",
+        "flxGoUp",
+        "flxPageInfo",
+        "flxGoDown",
+        "flxGoBottom"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "ResultadosCultivos",
+    "id": "Pagination",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "i16261a5259a45dabf6e79c29d5b2a6d",
-    "layouttype": 2,
+    "kuid": "ca8738fc0e0c4e0c8af49b903299a88c",
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",
