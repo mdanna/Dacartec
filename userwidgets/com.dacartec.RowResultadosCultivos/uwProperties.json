@@ -35,27 +35,7 @@
                     "value": ""
                 }
             ],
-            "passthrough": [
-                {
-                    "access": "Enable",
-                    "group": "General",
-                    "kuid": "df40f2e1b9d34ba58fe44c35ee36f5a3",
-                    "originalPropertyKey": "skin",
-                    "propertyIndex": 1,
-                    "propertyKey": "skinRow",
-                    "pw": {
-                        "access": "readwrite",
-                        "category": "skin",
-                        "dependencyConditions": {},
-                        "dependentKeysKUIDs": null,
-                        "displayName": "skinRow",
-                        "isHiddenInTool": false,
-                        "srcWidget": "RowResultadosCultivos",
-                        "wType": "FlexContainer"
-                    },
-                    "srcWgtKUID": "eafcb105f78f416a98a598bfd31fb50c"
-                }
-            ]
+            "passthrough": []
         },
         "widgets": {
             "expose": [],

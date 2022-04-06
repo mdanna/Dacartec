@@ -36,6 +36,10 @@
         "CellResultadosCultivos"
     ],
     "containerweight": 100,
+    "currentBreakpoint": {
+        "kuid": "b1",
+        "width": 1366
+    },
     "currentLocale": "default",
     "device": "desktopweb",
     "displayorientation": 3,

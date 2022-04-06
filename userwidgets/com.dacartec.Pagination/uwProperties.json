@@ -19,25 +19,6 @@
             "custom": [
                 {
                     "access": "Write",
-                    "defaultValue": 10,
-                    "group": "General",
-                    "kuid": "ia631e5840a24d168b6ccbb98ee0d03d",
-                    "originalPropertyKey": "pageSize",
-                    "propertyIndex": 1,
-                    "propertyKey": "pageSize",
-                    "pw": {
-                        "dependencyConditions": {},
-                        "displayName": "pageSize",
-                        "type": "integer",
-                        "uiRepresentation": "Label-Textbox",
-                        "validationData": "^(\\+|-)?\\d+$"
-                    },
-                    "srcWgtKUID": "ca8738fc0e0c4e0c8af49b903299a88c",
-                    "type": "integer",
-                    "value": ""
-                },
-                {
-                    "access": "Write",
                     "defaultValue": 1,
                     "group": "General",
                     "kuid": "c8b332ad4f38487faa3b7fee538adec0",

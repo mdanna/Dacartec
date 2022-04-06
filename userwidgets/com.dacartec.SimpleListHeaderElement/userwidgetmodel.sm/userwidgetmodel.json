@@ -36,6 +36,10 @@
         "SimpleListHeaderElement"
     ],
     "containerweight": 100,
+    "currentBreakpoint": {
+        "kuid": "b2",
+        "width": 1024
+    },
     "currentLocale": "default",
     "device": "desktopweb",
     "displayorientation": 3,

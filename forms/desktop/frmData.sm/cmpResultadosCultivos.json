@@ -35,7 +35,9 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "datasetName": "Cultivo"
+    },
     "id": "cmpResultadosCultivos",
     "info": null,
     "iscustomlayout": false,
