@@ -7,7 +7,27 @@
         },
         "events": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "d79f796a1a8f49e5ba9609d52dbfa7e8",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickLeft",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickLeft",
+                        "srcWidget": "flxLeft",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "e340a449d9754afe829ae2f92446e535",
+                    "translateAtInstance": false
+                }
+            ]
         },
         "groups": {
             "apis": [],
@@ -16,25 +36,7 @@
             "widgets": []
         },
         "properties": {
-            "custom": [
-                {
-                    "access": "Write",
-                    "defaultValue": "",
-                    "group": "General",
-                    "kuid": "e680d4b4843a41579ee840c1077f1fe5",
-                    "originalPropertyKey": "targetForm",
-                    "propertyIndex": 2,
-                    "propertyKey": "targetForm",
-                    "pw": {
-                        "dependencyConditions": {},
-                        "displayName": "targetForm",
-                        "uiRepresentation": "Label-Textbox"
-                    },
-                    "srcWgtKUID": "jd93b55efa56469fb508e6f8029c05bb",
-                    "type": "string",
-                    "value": ""
-                }
-            ],
+            "custom": [],
             "passthrough": [
                 {
                     "access": "Enable",
@@ -56,6 +58,27 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "bc7613a343c34c32b49dc3a4f725366f"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "c86179ec75ce4fea801ef150f56491b8",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "leftIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "leftIcon",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblLeft",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "a65aa9d8c4fc4d20b579ed44a45d8b81"
                 }
             ]
         },

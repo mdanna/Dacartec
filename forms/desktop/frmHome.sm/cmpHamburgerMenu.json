@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -24,7 +24,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd7d8fd2854e463ea9bb87d0ac3aeadd",
+    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -35,23 +35,20 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {
-        "leftIcon": "",
-        "title": "Cultivo"
-    },
-    "id": "cmpSimpleHeader",
+    "data": {},
+    "id": "cmpHamburgerMenu",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "j8d1c69aabc64c78baad3e873d5b6f81",
+    "isvisible": false,
+    "kuid": "a02400bfd926491d846552cd12ac1933",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "frmCultivo",
-    "pf": "frmCultivo",
+    "parent": "frmHome",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "jd93b55efa56469fb508e6f8029c05bb",
+    "sourceUserWidget": "g53fb24cd4ed452d86120e8a38b9aa44",
     "wType": "UserWidgetInstance",
-    "zindex": 1
+    "zindex": 100
 }

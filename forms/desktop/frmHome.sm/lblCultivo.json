@@ -5,6 +5,10 @@
         "type": "string",
         "value": "100%"
     },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_margin_": [
         1,
         1,
@@ -17,11 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s6cd4815628049989c302d8b7b45119a",
-    "_text_": "",
+    "_skin_": "sd75d4895a6f48ee9bdb5f780f7fd3e7",
+    "_text_": "Cultivo",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
     "_width_": {
-        "type": "ref",
-        "value": "preferred"
+        "type": "string",
+        "value": "100%"
     },
     "_wrapping_": 2,
     "android": {
@@ -31,17 +39,9 @@
         }
     },
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "centery": {
-        "type": "string",
-        "value": "50%"
-    },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblTitle",
+    "id": "lblCultivo",
     "info": null,
     "ipad": {
         "psp": {
@@ -55,10 +55,10 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "bc7613a343c34c32b49dc3a4f725366f",
+    "kuid": "c994ee3cb1024d97adfde3e8fe65fa7c",
     "name": "kony.ui.Label",
-    "parent": "PageHeader",
-    "pf": "userwidgetmodel",
+    "parent": "flxCultivo",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

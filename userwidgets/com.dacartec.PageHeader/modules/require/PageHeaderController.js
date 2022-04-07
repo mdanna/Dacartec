@@ -9,26 +9,15 @@ define(function() {
           this.init();
           this.initDone = true;
         }
+        
+        //this.view.lblTitle.isVisible = !!this.view.lblTitle.text;
 
       };
     },
 
     //Logic for getters/setters of custom properties
-    initGettersSetters() {
-      defineGetter(this, 'targetForm', () => {
-        return this._targetForm;
-      });
-      defineSetter(this, 'targetForm', value => {
-        this._targetForm = value;
-      });
-    },
+    initGettersSetters() {},
 
-    init(){
-      this.view.flxLeft.onClick = () => {
-        if(this.targetForm){
-          new voltmx.mvc.Navigation(this.targetForm).navigate();
-        }
-      };
-    }
+    init(){}
   };
 });

@@ -33,7 +33,7 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "PageHeader"
+        "HamburgerMenu"
     ],
     "containerweight": 100,
     "currentBreakpoint": {
@@ -53,7 +53,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "udeb70b3eee24c979972ae048bc2871e",
+    "kuid": "u715f3c8ef6543aea3bd9ffb2692db02",
     "layouttype": 2,
     "masterType": 1,
     "name": "kony.ui.Form2",
@@ -63,8 +63,6 @@
     },
     "paddinginpixel": false,
     "platform": "desktopweb",
-    "prevDevice": "desktopweb",
-    "prevPlatform": "desktopweb",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

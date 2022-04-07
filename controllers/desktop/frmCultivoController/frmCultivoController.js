@@ -34,11 +34,14 @@ define({
         alert(`delete ${JSON.stringify(pkValues)}`);
       }
     });
+    
     eventManager.subscribe(globals.EVENT_EDIT, ({datasetName, pkValues}) => {
       if(datasetName === 'Cultivo'){
         alert(`edit ${JSON.stringify(pkValues)}`);
       }
     });
+    
+    this.view.cmpSimpleHeader.onClickLeft = () => new voltmx.mvc.Navigation('frmHome').navigate();
 
   },
 

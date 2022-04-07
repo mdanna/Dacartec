@@ -36,18 +36,17 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
-        "leftIcon": "",
-        "title": "Cultivo"
+        "title": "Pages"
     },
-    "id": "cmpSimpleHeader",
+    "id": "PageHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "j8d1c69aabc64c78baad3e873d5b6f81",
+    "kuid": "af383f189a264446bcbfab593e8250d7",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "frmCultivo",
-    "pf": "frmCultivo",
+    "parent": "flxLinks",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
