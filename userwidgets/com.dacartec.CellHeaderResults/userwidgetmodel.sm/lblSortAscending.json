@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "5%"
+        "value": "0%"
     },
     "_margin_": [
         1,
@@ -21,15 +21,15 @@
         0,
         0
     ],
-    "_skin_": "s99bcc465f3d4e61bf3ba9bd9261a2e7",
-    "_text_": "Label",
+    "_skin_": "s6dd045eefb84077a8ed99f5cdb553aa",
+    "_text_": "",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "85%"
+        "value": "10%"
     },
     "_wrapping_": 2,
     "android": {
@@ -44,8 +44,8 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 4,
-    "id": "lblDisplayValue",
+    "contentalignment": 5,
+    "id": "lblSortAscending",
     "info": null,
     "ipad": {
         "psp": {
@@ -58,8 +58,8 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": true,
-    "kuid": "b16353f6af8e430bb769a33eb351f856",
+    "isvisible": false,
+    "kuid": "c638d09ffb704e218f843104dd410cb8",
     "name": "kony.ui.Label",
     "parent": "CellHeaderResults",
     "pf": "userwidgetmodel",

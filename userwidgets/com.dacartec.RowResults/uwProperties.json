@@ -3,14 +3,74 @@
     "definitions": {
         "apis": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "a4cda55fbc824e1b8fa08741b8f58dde",
+                    "originalPropertyKey": "add",
+                    "propertyKey": "addCell",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "addCell",
+                        "srcWidget": "flxContent",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "cfa2976e7f6542db9cbc2b6b93c5f328",
+                    "translateAtInstance": false
+                }
+            ]
         },
         "events": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e2d9cebf7d874404a6e919edaf38e5eb",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onDeleteClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onDeleteClick",
+                        "srcWidget": "flxButton",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "b3785fb370024b13a096ee6ba78be846",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aba2549e00cf49e389e4a0b017dbc6c8",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onRowClick",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onRowClick",
+                        "srcWidget": "flxContent",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "cfa2976e7f6542db9cbc2b6b93c5f328",
+                    "translateAtInstance": false
+                }
+            ]
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []

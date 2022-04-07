@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "60dp"
     },
     "_left_": {
         "type": "string",
@@ -35,7 +35,9 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "lblDisplayValue"
+        "lblDisplayValue",
+        "lblSortAscending",
+        "lblSortDescending"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -45,7 +47,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "c62b888d4a974227a25cb3aaed59ed0d",
-    "layouttype": 2,
+    "layouttype": 3,
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",

@@ -108,6 +108,7 @@
                     "propertyIndex": 4,
                     "propertyKey": "defaultArgs",
                     "pw": {
+                        "dependencyConditions": {},
                         "displayName": "defaultArgs",
                         "uiConfig": {
                             "Button": {
@@ -121,6 +122,40 @@
                     },
                     "srcWgtKUID": "i16261a5259a45dabf6e79c29d5b2a6d",
                     "type": "json",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "c312645642e04eb9bd789fffc6c20bd6",
+                    "originalPropertyKey": "primaryKey",
+                    "propertyIndex": 5,
+                    "propertyKey": "primaryKey",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "primaryKey",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "i16261a5259a45dabf6e79c29d5b2a6d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "fc9fac8cccbb434b87e337597d4f0f95",
+                    "originalPropertyKey": "defaultSortColumn",
+                    "propertyIndex": 6,
+                    "propertyKey": "defaultSortColumn",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "defaultSortColumn",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "i16261a5259a45dabf6e79c29d5b2a6d",
+                    "type": "string",
                     "value": ""
                 }
             ],

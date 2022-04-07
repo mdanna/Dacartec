@@ -96,7 +96,9 @@
             ]
         },
         "datasetName": "Cultivo",
-        "defaultArgs": "{\n  \"Code\": \"0\", \n  \"ProduktName\": null, \n  \"FK_Kulturkategorie\": null, \n  \"Deleted\": false\n}"
+        "defaultArgs": "{\n  \"Code\": \"0\", \n  \"ProduktName\": null, \n  \"FK_Kulturkategorie\": null, \n  \"Deleted\": false\n}",
+        "defaultSortColumn": "ProduktName",
+        "primaryKey": "PK_KulturStamm"
     },
     "id": "cmpResultsCultivo",
     "info": null,

@@ -29,23 +29,25 @@
     },
     "_width_": {
         "type": "string",
-        "value": "95%"
+        "value": "5%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "lblDelete"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxHeader",
+    "id": "flxButton",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dd34ac8644cb4f69a1228f3bb90c2b0e",
-    "layouttype": 3,
+    "kuid": "b3785fb370024b13a096ee6ba78be846",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxHeaderContainer",
+    "parent": "RowResults",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

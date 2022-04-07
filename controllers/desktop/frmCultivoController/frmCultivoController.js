@@ -28,6 +28,17 @@ define({
     this.view.doLayout = () => {
       this.resizeResultadosCultivos();
     };
+    
+    eventManager.subscribe(globals.EVENT_DELETE, ({datasetName, pkValues}) => {
+      if(datasetName === 'Cultivo'){
+        alert(`delete ${JSON.stringify(pkValues)}`);
+      }
+    });
+    eventManager.subscribe(globals.EVENT_EDIT, ({datasetName, pkValues}) => {
+      if(datasetName === 'Cultivo'){
+        alert(`edit ${JSON.stringify(pkValues)}`);
+      }
+    });
 
   },
 

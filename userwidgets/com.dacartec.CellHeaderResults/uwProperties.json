@@ -2,7 +2,20 @@
     "classname": "CellHeaderResults",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "a3b4e781801b4f3997d7e42f92ccfa80",
+                    "paramList": [],
+                    "propertyKey": "setSortStatus",
+                    "pw": {
+                        "displayName": "setSortStatus",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "c62b888d4a974227a25cb3aaed59ed0d",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -10,13 +23,50 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []
         },
         "properties": {
-            "custom": [],
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "g2ae07f9bdf94ba8badc8ab56d0a6152",
+                    "originalPropertyKey": "datasetName",
+                    "propertyIndex": 2,
+                    "propertyKey": "datasetName",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "datasetName",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c62b888d4a974227a25cb3aaed59ed0d",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "j0e4cebde45b43d29761d4b41c98cc3b",
+                    "originalPropertyKey": "codeValue",
+                    "propertyIndex": 3,
+                    "propertyKey": "codeValue",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "codeValue",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "c62b888d4a974227a25cb3aaed59ed0d",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
             "passthrough": [
                 {
                     "access": "Enable",

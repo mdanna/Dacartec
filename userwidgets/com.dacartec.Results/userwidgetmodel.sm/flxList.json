@@ -37,7 +37,7 @@
     "bounces": true,
     "canUpdateUI": true,
     "children": [
-        "flxHeader",
+        "flxHeaderContainer",
         "flxContent"
     ],
     "clipbounds": true,
