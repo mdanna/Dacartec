@@ -60,7 +60,7 @@ define({
     }
     
     if(frmHeight > 0){
-      this.view.cmpResultadosCultivos.height = (frmHeight - top) + 'dp';
+      this.view.cmpResultsCultivo.height = (frmHeight - top) + 'dp';
     }
   }
 });

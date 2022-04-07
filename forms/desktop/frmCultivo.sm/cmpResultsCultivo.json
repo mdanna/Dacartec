@@ -95,17 +95,18 @@
                 }
             ]
         },
-        "datasetName": "Cultivo"
+        "datasetName": "Cultivo",
+        "defaultArgs": "{\n  \"Code\": \"0\", \n  \"ProduktName\": null, \n  \"FK_Kulturkategorie\": null, \n  \"Deleted\": false\n}"
     },
-    "id": "cmpResultadosCultivos",
+    "id": "cmpResultsCultivo",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "h18d4c1017204e668a84140f60392745",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "frmData",
-    "pf": "frmData",
+    "parent": "frmCultivo",
+    "pf": "frmCultivo",
     "responsiveData": {
         "b1": {
             "top": {

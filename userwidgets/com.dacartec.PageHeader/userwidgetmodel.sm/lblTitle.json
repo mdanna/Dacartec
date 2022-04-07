@@ -65,7 +65,7 @@
     "isvisible": true,
     "kuid": "bc7613a343c34c32b49dc3a4f725366f",
     "name": "kony.ui.Label",
-    "parent": "SimpleHeader",
+    "parent": "PageHeader",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -49,13 +49,13 @@
     "children": [
         "cmpSimpleHeader",
         "cmpSearchArea",
-        "cmpResultadosCultivos"
+        "cmpResultsCultivo"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "desktop",
-            "name": "frmDataController"
+            "name": "frmCultivoController"
         }
     },
     "currentBreakpoint": {
@@ -69,7 +69,7 @@
     "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmData",
+    "id": "frmCultivo",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,

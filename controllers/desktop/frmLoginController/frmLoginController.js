@@ -21,7 +21,7 @@ define({
       mbaas.login(userid, password).then((result) => {
         voltmx.store.setItem('userid', userid);
         voltmx.store.setItem('password', password);
-        new voltmx.mvc.Navigation('frmData').navigate();
+        new voltmx.mvc.Navigation('frmCultivo').navigate();
       }). catch((error) => {
         alert(JSON.stringify(error));
       });

@@ -33,7 +33,7 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "SimpleListHeaderElement"
+        "CellHeaderResults"
     ],
     "containerweight": 100,
     "currentBreakpoint": {

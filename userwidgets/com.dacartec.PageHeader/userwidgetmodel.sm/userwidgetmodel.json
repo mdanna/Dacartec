@@ -33,7 +33,7 @@
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "SimpleHeader"
+        "PageHeader"
     ],
     "containerweight": 100,
     "currentLocale": "default",
@@ -59,8 +59,8 @@
     },
     "paddinginpixel": false,
     "platform": "desktopweb",
-    "prevDevice": "iPhone11",
-    "prevPlatform": "iphone",
+    "prevDevice": "desktopweb",
+    "prevPlatform": "desktopweb",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,

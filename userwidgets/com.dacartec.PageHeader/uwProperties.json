@@ -1,5 +1,5 @@
 {
-    "classname": "SimpleHeader",
+    "classname": "PageHeader",
     "definitions": {
         "apis": {
             "custom": [],

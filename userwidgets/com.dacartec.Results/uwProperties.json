@@ -91,12 +91,37 @@
                     "propertyIndex": 3,
                     "propertyKey": "columns",
                     "pw": {
+                        "dependencyConditions": {},
                         "displayName": "columns",
                         "uiRepresentation": "Label-DataGrid"
                     },
                     "srcWgtKUID": "i16261a5259a45dabf6e79c29d5b2a6d",
                     "type": "data grid",
                     "value": 3
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "{}",
+                    "group": "General",
+                    "kuid": "e655912248c545df9c08c36e9dc8230a",
+                    "originalPropertyKey": "defaultArgs",
+                    "propertyIndex": 4,
+                    "propertyKey": "defaultArgs",
+                    "pw": {
+                        "displayName": "defaultArgs",
+                        "uiConfig": {
+                            "Button": {
+                                "dataRetrieverId": "jsonEditor-Retriever",
+                                "dataUpdaterId": "jsonEditor-Updater",
+                                "popupId": "jsonEditor-Popup",
+                                "type": "jsonEditor"
+                            }
+                        },
+                        "uiRepresentation": "Label-Button"
+                    },
+                    "srcWgtKUID": "i16261a5259a45dabf6e79c29d5b2a6d",
+                    "type": "json",
+                    "value": ""
                 }
             ],
             "passthrough": []

@@ -43,8 +43,8 @@
     "kuid": "a2938fd7c6ae4e84857475b2d6d18774",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "frmData",
-    "pf": "frmData",
+    "parent": "frmCultivo",
+    "pf": "frmCultivo",
     "responsiveData": {
         "b1": {
             "height": {

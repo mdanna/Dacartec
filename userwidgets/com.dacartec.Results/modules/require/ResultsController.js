@@ -30,22 +30,17 @@ define(function() {
         //have a look at the property columns to build the header
         headerNames.forEach((header, index) => {
           //create an instance of SimpleListHeaderElement and add it to the flex
-          const simpleListHeaderElement = new com.dacartec.SimpleListHeaderElement({
-            id: 'simpleListHeaderElement' + index
+          const cellHeaderResults = new com.dacartec.CellHeaderResults({
+            id: 'cellHeaderResults' + index
           }, {}, {});
-          simpleListHeaderElement.displayValue = header;
-          this.view.flxHeader.add(simpleListHeaderElement);
+          cellHeaderResults.displayValue = header;
+          this.view.flxHeader.add(cellHeaderResults);
         });
 
-        this.loadData({
-          Code: '0',
-          ProduktName: null,
-          FK_Kulturkategorie: null,
-          Deleted: false
-        });
+        this.loadData(this.defaultArgs || {});
       };
     },
-    
+
     getHeaderNames(){
       const headers = [];
       this.columns.data.forEach((column) => {
@@ -55,7 +50,7 @@ define(function() {
       });
       return headers;
     },
-    
+
     getHeaderKeys(){
       const headers = [];
       this.columns.data.forEach((column) => {
@@ -66,28 +61,34 @@ define(function() {
       return headers;
     },
 
-    
+
     //Logic for getters/setters of custom properties
     initGettersSetters: function() {
-            defineGetter(this, 'datasetName', () => {
-                return this._datasetName;
-            });
-            defineSetter(this, 'datasetName', value => {
-                this._datasetName = value;
-            });
-            defineGetter(this, 'apiName', () => {
-                return this._apiName;
-            });
-            defineSetter(this, 'apiName', value => {
-                this._apiName = value;
-            });
-            defineGetter(this, 'columns', () => {
-                return this._columns;
-            });
-            defineSetter(this, 'columns', value => {
-                this._columns = value;
-            });
-        },
+      defineGetter(this, 'datasetName', () => {
+        return this._datasetName;
+      });
+      defineSetter(this, 'datasetName', value => {
+        this._datasetName = value;
+      });
+      defineGetter(this, 'apiName', () => {
+        return this._apiName;
+      });
+      defineSetter(this, 'apiName', value => {
+        this._apiName = value;
+      });
+      defineGetter(this, 'columns', () => {
+        return this._columns;
+      });
+      defineSetter(this, 'columns', value => {
+        this._columns = value;
+      });
+      defineGetter(this, 'defaultArgs', () => {
+        return this._defaultArgs;
+      });
+      defineSetter(this, 'defaultArgs', value => {
+        this._defaultArgs = value;
+      });
+    },
 
     loadData(args){
       voltmx.application.showLoadingScreen(null, '', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, {});
