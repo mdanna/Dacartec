@@ -1,5 +1,5 @@
 {
-    "@class": "com.kony.gen.viz.model.container.KVizForm",
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
     "DNDConfig": null,
     "_margin_": [
         0,
@@ -21,30 +21,27 @@
     "allboxes": [],
     "breakpointInfo": {
         "b1": {
-            "width": 1400
+            "width": 1366
         },
         "b2": {
-            "width": 1200
+            "width": 1024
         },
         "b3": {
-            "width": 600
+            "width": 640
         }
     },
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "HamburgerMenu"
+        "flxHamburgerMenu"
     ],
+    "containerId": true,
     "containerweight": 100,
-    "currentBreakpoint": {
-        "kuid": "b3",
-        "width": 600
-    },
     "currentLocale": "default",
     "device": "desktopweb",
     "displayorientation": 3,
     "enabledforidletimeout": false,
-    "id": "userwidgetmodel",
+    "id": "tplHamburgerMenu",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -53,9 +50,7 @@
     },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "u715f3c8ef6543aea3bd9ffb2692db02",
-    "layouttype": 2,
-    "masterType": 1,
+    "kuid": "ia7c56befaa04c219d3092104e9cbab5",
     "name": "kony.ui.Form2",
     "needappmenu": true,
     "outtransitionconfig": {

@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "100%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -22,41 +22,48 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "se580558dbf54563a93c6e2a4e96d4ca",
+    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "menuHeader",
-        "segMenuItems",
-        "flxFooter"
+        "flxIcon",
+        "item",
+        "key"
     ],
     "clipbounds": true,
+    "containerId": true,
     "containerweight": 100,
+    "controllerInfo": {
+        "default": {
+            "channel": "desktop",
+            "name": "flxHamburgerMenuController"
+        }
+    },
     "enablescrolling": true,
-    "id": "flxMenu",
+    "id": "flxHamburgerMenu",
     "info": null,
+    "isTemplate": true,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "e4233da934ea4346aae940c46320d538",
+    "kuid": "fa8243350ff341bda4e370e1df823d23",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "HamburgerMenu",
-    "pf": "userwidgetmodel",
+    "parent": "tplHamburgerMenu",
+    "pf": "tplHamburgerMenu",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

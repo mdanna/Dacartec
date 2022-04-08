@@ -35,7 +35,78 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {},
+    "data": {
+        "menuItems": {
+            "desktop": [
+                {
+                    "icon": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "item": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item 1"
+                    },
+                    "key": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "key1"
+                    }
+                },
+                {
+                    "icon": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "item": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item 2"
+                    },
+                    "key": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "key2"
+                    }
+                },
+                {
+                    "icon": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": ""
+                    },
+                    "item": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Item 3"
+                    },
+                    "key": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "key3"
+                    }
+                }
+            ],
+            "mobile": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ],
+            "tablet": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        }
+    },
     "id": "cmpHamburgerMenu",
     "info": null,
     "iscustomlayout": false,

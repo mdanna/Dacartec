@@ -58,6 +58,20 @@
     "name": "kony.ui.FlexContainer",
     "parent": "frmHome",
     "pf": "frmHome",
+    "responsiveData": {
+        "b1": {
+            "width": {
+                "type": "string",
+                "value": "30%"
+            }
+        },
+        "b3": {
+            "width": {
+                "type": "string",
+                "value": "70%"
+            }
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

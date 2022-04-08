@@ -126,6 +126,9 @@
     "titleBarSkin": "sc5d030fa2b6493bacc6a05bd9597bac",
     "titlebar": true,
     "type": 3,
+    "vizProps": {
+        "globalRespDesignEnabled": false
+    },
     "wType": "Form",
     "windows8": {
         "needAppMenu": false
