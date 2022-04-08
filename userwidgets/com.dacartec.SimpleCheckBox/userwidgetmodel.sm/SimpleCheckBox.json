@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "70dp"
+        "value": "55dp"
     },
     "_left_": {
         "type": "string",
@@ -22,32 +22,31 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd7d8fd2854e463ea9bb87d0ac3aeadd",
+    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "300dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxLeft",
-        "lblTitle",
-        "flxRight"
+        "lblField",
+        "flxCheckBox"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "PageHeader",
+    "id": "SimpleCheckBox",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jd93b55efa56469fb508e6f8029c05bb",
-    "layouttype": 2,
+    "kuid": "ffac8f96c5584a7d86308aff5da6ec0c",
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",

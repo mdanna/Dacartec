@@ -37,6 +37,7 @@
     "containerweight": 0,
     "data": {
         "leftIcon": "",
+        "rightIcon": "+",
         "title": "Cultivo"
     },
     "id": "cmpSimpleHeader",

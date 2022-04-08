@@ -4,10 +4,6 @@
         "type": "string",
         "value": "70dp"
     },
-    "_left_": {
-        "type": "string",
-        "value": "0dp"
-    },
     "_margin_": [
         0,
         0,
@@ -22,34 +18,36 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd7d8fd2854e463ea9bb87d0ac3aeadd",
+    "_right_": {
+        "type": "number",
+        "value": "0"
+    },
+    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "70dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxLeft",
-        "lblTitle",
-        "flxRight"
+        "lblRight"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "PageHeader",
+    "id": "flxRight",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "jd93b55efa56469fb508e6f8029c05bb",
+    "kuid": "c1721e8644394f60958ded2f36a50c57",
     "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "userwidgetmodel",
+    "parent": "PageHeader",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

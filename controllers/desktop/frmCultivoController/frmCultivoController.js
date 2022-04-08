@@ -37,11 +37,12 @@ define({
     
     eventManager.subscribe(globals.EVENT_EDIT, ({datasetName, pkValues}) => {
       if(datasetName === 'Cultivo'){
-        alert(`edit ${JSON.stringify(pkValues)}`);
+        new voltmx.mvc.Navigation('frmEditCultivo').navigate({pkValues});
       }
     });
     
     this.view.cmpSimpleHeader.onClickLeft = () => new voltmx.mvc.Navigation('frmHome').navigate();
+    this.view.cmpSimpleHeader.onClickRight = () => alert('Create cultivo');
 
   },
 

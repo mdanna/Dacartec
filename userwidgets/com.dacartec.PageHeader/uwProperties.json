@@ -11,7 +11,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "d79f796a1a8f49e5ba9609d52dbfa7e8",
+                    "kuid": "gfba595f93254a26934327eb79496f16",
                     "originalPropertyKey": "onClick",
                     "propertyIndex": 1,
                     "propertyKey": "onClickLeft",
@@ -25,6 +25,25 @@
                         "wType": "FlexContainer"
                     },
                     "srcWgtKUID": "e340a449d9754afe829ae2f92446e535",
+                    "translateAtInstance": false
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e2695c6b99304a2ebd1216608b5c4290",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 2,
+                    "propertyKey": "onClickRight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickRight",
+                        "srcWidget": "flxRight",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "c1721e8644394f60958ded2f36a50c57",
                     "translateAtInstance": false
                 }
             ]
@@ -79,6 +98,27 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "a65aa9d8c4fc4d20b579ed44a45d8b81"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e5229fc10c064dc1aa1bf62a0dc36b1e",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "rightIcon",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "rightIcon",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRight",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f2cd6817a8434412a7d6d502e7852a7e"
                 }
             ]
         },
