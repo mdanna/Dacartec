@@ -1,4 +1,7 @@
 const globals = {
+  SERVICE: 'CaaeBBDD',
+  IDENTITY_SERVICE: 'RepositoriUsuariosCarlos',
+  
   PAGE_SIZE: 10,
   
   EVENT_PAGINATE: 'evt_paginate',

@@ -44,6 +44,9 @@
     "device": "desktopweb",
     "displayorientation": 3,
     "enabledforidletimeout": false,
+    "globalUserWidgetRefs": [
+        "ua58c50e73fe40bcbbf2f417114d9b79"
+    ],
     "id": "userwidgetmodel",
     "info": null,
     "initdone": false,

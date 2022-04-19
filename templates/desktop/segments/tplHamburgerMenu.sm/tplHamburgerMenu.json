@@ -21,13 +21,13 @@
     "allboxes": [],
     "breakpointInfo": {
         "b1": {
-            "width": 1366
+            "width": 1400
         },
         "b2": {
-            "width": 1024
+            "width": 1200
         },
         "b3": {
-            "width": 640
+            "width": 600
         }
     },
     "canUpdateUI": true,
@@ -37,6 +37,10 @@
     ],
     "containerId": true,
     "containerweight": 100,
+    "currentBreakpoint": {
+        "kuid": "b1",
+        "width": 1400
+    },
     "currentLocale": "default",
     "device": "desktopweb",
     "displayorientation": 3,

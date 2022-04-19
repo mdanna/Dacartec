@@ -30,8 +30,8 @@ define({
   },
   
   onPreShow(){
-    this.view.txtUser.text = voltmx.store.getItem('userid') || '';
-    this.view.txtPassword.text = voltmx.store.getItem('password') || '';
+    this.view.txtUser.text = this.view.txtUser.text || voltmx.store.getItem('userid') || '';
+    this.view.txtPassword.text = this.view.txtPassword.text || voltmx.store.getItem('password') || '';
   }
   
   

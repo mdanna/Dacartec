@@ -1,11 +1,13 @@
 define(function() {
 
   return {
+    records: [],
+
     constructor: function(baseConfig, layoutConfig, pspConfig) {
       this.view.preShow = () => {
 
         if(!this.initDone){
-          
+
           eventManager.subscribe(globals.EVENT_SEARCH, ({datasetName, searchArgs}) => {
             if(datasetName === this.datasetName){
               this.loadData(searchArgs);
@@ -19,13 +21,21 @@ define(function() {
               voltmx.application.dismissLoadingScreen();
             }
           });
-          
+
           eventManager.subscribe(globals.EVENT_SORT, ({datasetName, column, isAscending}) => {
             if(datasetName === this.datasetName){
               this.sortData(column, isAscending);
               this.paginateData(1);
             }
           });
+
+          this.view.doLayout = () => {
+            const resultsHeight = this.view.frame.height;
+            if(resultsHeight > 0){
+              this.view.flxList.height = (resultsHeight - 50) + 'dp';
+              this.view.flxContent.height = (resultsHeight - 100) + 'dp';
+            }
+          };
 
           this.initDone = true;
         }
@@ -119,7 +129,7 @@ define(function() {
     loadData(args){
       voltmx.application.showLoadingScreen(null, '', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, {});
 
-      mbaas.invokeOperation(mbaas.SERVICE, this.apiName, {}, args).then((results) => {
+      mbaas.invokeOperation(globals.SERVICE, this.apiName, {}, args).then((results) => {
         //this has to fill the component
 
         this.records = results.records;

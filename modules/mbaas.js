@@ -1,10 +1,7 @@
 const mbaas = {
-  SERVICE: 'CaaeBBDD',
-  IDENTITY_SERVICE: 'RepositoriUsuariosCarlos',
-  
   login(userid, password){
 	const promise = new Promise((resolve, reject) => {
-        const serviceClient = VMXFoundry.getIdentityService(mbaas.IDENTITY_SERVICE);
+        const serviceClient = VMXFoundry.getIdentityService(globals.IDENTITY_SERVICE);
         serviceClient.login({
           userid,
           password
