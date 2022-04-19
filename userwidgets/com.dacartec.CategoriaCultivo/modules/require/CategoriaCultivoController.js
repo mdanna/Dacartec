@@ -14,6 +14,11 @@ define(function() {
             this.view.lbxValue.selectedKey = key;
           };
           
+          this.view.lbxValue.onSelection = () => {
+            const element = this.values.data.find((row) => row.code === this.view.lbxValue.selectedKey);
+            const elementId = element ? element.id : '';
+            this.view.txtFilter.text = elementId === '-' ? '' : elementId;
+          };
           this.initDone = true;
         }
       };
