@@ -82,13 +82,7 @@ define({
   },
 
   editCultivo(){
-    var hoy = new Date();
-    var fechaInicioPeriodo = hoy.getFullYear().toString() + "-01-01";
-    var fechaFinPeriodo = hoy.getFullYear().toString() + "-12-31";
-    var date = hoy.getFullYear() + '-' + (hoy.getMonth() + 1) + '-' + hoy.getDate();
-    var time = hoy.getHours() + ":" + hoy.getMinutes() + ":" + hoy.getSeconds();
-    var fechaActual = date + ' ' + time;
-
+    const {fechaInicioPeriodo, fechaFinPeriodo, fechaActual} = utils.getTimeStamp();
 
     mbaas.invokeOperation(globals.SERVICE, 'ActualizarCultivo', {}, {
       TimeStamp: this.view.lblTimestamp.text,
@@ -133,19 +127,14 @@ define({
   },
 
   createCultivo(){
-    var hoy = new Date();
-    var fechaInicioPeriodo = hoy.getFullYear().toString() + "-01-01";
-    var fechaFinPeriodo = hoy.getFullYear().toString() + "-12-31";
-    var date = hoy.getFullYear() + '-' + (hoy.getMonth() + 1) + '-' + hoy.getDate();
-    var time = hoy.getHours() + ":" + hoy.getMinutes() + ":" + hoy.getSeconds();
-    var fechaActual = date + ' ' + time;
+    const {fechaInicioPeriodo, fechaFinPeriodo, fechaActual} = utils.getTimeStamp();
 
     const code = this.view.tfCodigo.text;
     const name = this.view.tfNombre.text;
     const category = this.view.cmpCategoriaCultivo.selection;
 
     const pkValue = utils.getUniqueId();
-    
+
     if(code && name && category && category !== '0'){
       mbaas.invokeOperation(globals.SERVICE, 'AltaCultivo', {}, {
         PK_Kulturstamm: pkValue,

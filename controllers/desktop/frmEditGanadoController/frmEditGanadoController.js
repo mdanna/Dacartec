@@ -8,9 +8,9 @@ define({
       this.onInit();
     };
 
-//     this.view.preShow = () => {
-//       this.onPreShow();
-//     };
+    //     this.view.preShow = () => {
+    //       this.onPreShow();
+    //     };
 
   },
 
@@ -18,19 +18,19 @@ define({
     this.view.cmpPageHeader.onClickLeft = () => new voltmx.mvc.Navigation('frmGanado').navigate();
 
     this.view.cmpPageHeader.onClickRight = () => {
-//       if(this.navigationContext.pkValues){
-//         this.editGanado();
-//       } else {
-//         this.createGanado();
-//       }
+      //       if(this.navigationContext.pkValues){
+      //         this.editGanado();
+      //       } else {
+      //         this.createGanado();
+      //       }
     };
 
-//     this.view.doLayout = () => {
-//       const frmHeight = this.view.frame.height;
-//       if(frmHeight > 0){
-//         this.view.flxContentContainer.height = (frmHeight - 70) + 'dp';
-//       }
-//     };
+    //     this.view.doLayout = () => {
+    //       const frmHeight = this.view.frame.height;
+    //       if(frmHeight > 0){
+    //         this.view.flxContentContainer.height = (frmHeight - 70) + 'dp';
+    //       }
+    //     };
   },
 
   onPreShow(){
@@ -69,7 +69,7 @@ define({
     }
 
   },
-  
+
   initCultivo(){
     this.view.lblTimestamp.text = this.cultivo.TimeStamp;
     this.view.tfCodigo.text = this.cultivo.Code;
@@ -82,14 +82,8 @@ define({
   },
 
   editCultivo(){
-    var hoy = new Date();
-    var fechaInicioPeriodo = hoy.getFullYear().toString() + "-01-01";
-    var fechaFinPeriodo = hoy.getFullYear().toString() + "-12-31";
-    var date = hoy.getFullYear() + '-' + (hoy.getMonth() + 1) + '-' + hoy.getDate();
-    var time = hoy.getHours() + ":" + hoy.getMinutes() + ":" + hoy.getSeconds();
-    var fechaActual = date + ' ' + time;
+    const {fechaInicioPeriodo, fechaFinPeriodo, fechaActual} = utils.getTimeStamp();
 
-    
     mbaas.invokeOperation(globals.SERVICE, 'ActualizarCultivo', {}, {
       TimeStamp: this.view.lblTimestamp.text,
       Code: this.view.tfCodigo.text,
@@ -99,7 +93,7 @@ define({
       SonstigeNutzung: this.view.cbOtrosUsos.value,
       SonstigeEinheit: this.view.cbOtraUnidad.value,
       Anmerkung: this.view.taComentario.text,
-      
+
       WJahrBegin: fechaInicioPeriodo,
       WJahrEnde: fechaFinPeriodo,
       ErfasstAm: fechaActual,
@@ -125,7 +119,7 @@ define({
       alert(JSON.stringify(error));
     });
   },
-  
+
   createCultivo(){
 
   }

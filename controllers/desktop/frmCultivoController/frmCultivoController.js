@@ -31,14 +31,8 @@ define({
 
     eventManager.subscribe(globals.EVENT_DELETE, ({datasetName, pkValues}) => {
       if(datasetName === 'Cultivo'){
-
-        var hoy = new Date();
-        var fechaInicioPeriodo = hoy.getFullYear().toString() + "-01-01";
-        var fechaFinPeriodo = hoy.getFullYear().toString() + "-12-31";
-        var date = hoy.getFullYear() + '-' + (hoy.getMonth() + 1) + '-' + hoy.getDate();
-        var time = hoy.getHours() + ":" + hoy.getMinutes() + ":" + hoy.getSeconds();
-        var fechaActual = date + ' ' + time;
-
+        
+        const {fechaInicioPeriodo, fechaFinPeriodo, fechaActual} = utils.getTimeStamp();
 
         const pkValue = pkValues.PK_KulturStamm;
         mbaas.invokeOperation(globals.SERVICE, 'EliminarcultivoTabla', {}, {
