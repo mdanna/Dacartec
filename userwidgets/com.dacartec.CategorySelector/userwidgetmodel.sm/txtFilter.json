@@ -1,69 +1,64 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizTextArea2",
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "120dp"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
         "value": "0dp"
     },
     "_margin_": [
-        2,
-        2,
-        2,
-        2
+        0,
+        0,
+        0,
+        0
     ],
     "_padding_": [
-        2,
-        2,
-        2,
-        2
+        3,
+        0,
+        0,
+        0
     ],
     "_placeholder_": "",
-    "_skin_": "sa79ce975edf47b890b4aa3b69ba425f",
+    "_skin_": "sd22cb85cbfb4544ae1c6fe1ab12296d",
     "_text_": "",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "30dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "40dp"
     },
     "autocapitalize": "none",
     "autocomplete": false,
     "autocorrect": false,
     "autofilter": false,
     "canUpdateUI": true,
-    "closebuttontext": "",
     "containerheight": "",
     "containerheightmode": 1,
     "containerweight": 100,
-    "contentalignment": 1,
-    "focusskin": "s59796f095a843cfa95c28c3e8da0d8e",
-    "id": "taField",
+    "contentalignment": 4,
+    "focusskin": "s1cf1c9ee56a4452b9d8d086b5f4b0cf",
+    "id": "txtFilter",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "keyboardstyle": "A",
     "keyboardtype": "A",
-    "kuid": "f13a3642594a46569ab65e2b33797069",
+    "kuid": "bd8c998c3d5c4952964e4adb37a207af",
     "mode": "A",
-    "name": "kony.ui.TextArea2",
-    "numberofvisiblelines": 3,
-    "parent": "SimpleTextArea",
+    "name": "kony.ui.TextBox2",
+    "parent": "CategorySelector",
     "pf": "userwidgetmodel",
-    "placeholderskin": "s23532a229954a1b8d3b5795c4e18e0e",
+    "placeholderskin": "s82378ea6c814a18a8ab9267bfbd2533",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "securetextentry": false,
-    "showoprogressindicator": false,
-    "showprogressindicator": false,
     "textinputmode": "A",
     "tooltip": "",
     "viewtype": "default",
-    "wType": "TextArea",
+    "wType": "TextField",
     "zindex": 1
 }

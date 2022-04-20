@@ -1,4 +1,7 @@
 const globals = {
+  ID_USUARIO: 'B8576351-9B11-4E93-90A3-36B8F4538C5C',
+  UNIT_INCOME: 3022326,
+  
   SERVICE: 'CaaeBBDD',
   IDENTITY_SERVICE: 'RepositoriUsuariosCarlos',
   

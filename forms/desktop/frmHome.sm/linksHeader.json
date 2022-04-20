@@ -1,8 +1,10 @@
 {
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
+    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "50dp"
+        "value": "70dp"
     },
     "_left_": {
         "type": "string",
@@ -14,7 +16,7 @@
         0,
         0
     ],
-    "_orientation_": 6,
+    "_orientation_": 1,
     "_padding_": [
         0,
         0,
@@ -31,30 +33,24 @@
         "type": "string",
         "value": "100%"
     },
-    "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [
-        "cmpPagination"
-    ],
-    "clipbounds": true,
-    "containerweight": 100,
-    "enablescrolling": true,
-    "id": "flxFooter",
+    "containerweight": 0,
+    "data": {
+        "title": "Pages"
+    },
+    "id": "linksHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "f3da33527c734ebca3c510c6cb8908ae",
-    "layouttype": 2,
-    "name": "kony.ui.FlexContainer",
-    "parent": "Results",
-    "pf": "userwidgetmodel",
+    "kuid": "af383f189a264446bcbfab593e8250d7",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxLinks",
+    "pf": "frmHome",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "snapgridsize": 10,
-    "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
+    "sourceUserWidget": "jd93b55efa56469fb508e6f8029c05bb",
+    "wType": "UserWidgetInstance",
     "zindex": 1
 }

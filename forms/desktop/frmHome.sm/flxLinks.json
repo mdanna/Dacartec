@@ -4,10 +4,6 @@
         "type": "string",
         "value": "50%"
     },
-    "_left_": {
-        "type": "string",
-        "value": "606dp"
-    },
     "_margin_": [
         0,
         0,
@@ -23,10 +19,6 @@
     ],
     "_percent_": true,
     "_skin_": "sf97a5d195694c7bbcf2036124d063f0",
-    "_top_": {
-        "type": "string",
-        "value": "168dp"
-    },
     "_width_": {
         "type": "string",
         "value": "50%"
@@ -43,8 +35,9 @@
         "value": "50%"
     },
     "children": [
-        "PageHeader",
-        "flxCultivo"
+        "linksHeader",
+        "flxCultivo",
+        "flxGanado"
     ],
     "clipbounds": true,
     "containerweight": 100,
@@ -54,7 +47,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "f0ce24d145ee42a89677b1875491b487",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "frmHome",
     "pf": "frmHome",

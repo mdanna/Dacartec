@@ -1,6 +1,6 @@
 define({ 
   pkValue: null,
-  cultivo: null,
+  ganado: null,
 
   onViewCreated(){
 
@@ -8,29 +8,29 @@ define({
       this.onInit();
     };
 
-    this.view.preShow = () => {
-      this.onPreShow();
-    };
+//     this.view.preShow = () => {
+//       this.onPreShow();
+//     };
 
   },
 
   onInit(){
-    this.view.cmpPageHeader.onClickLeft = () => new voltmx.mvc.Navigation('frmCultivo').navigate();
+    this.view.cmpPageHeader.onClickLeft = () => new voltmx.mvc.Navigation('frmGanado').navigate();
 
     this.view.cmpPageHeader.onClickRight = () => {
-      if(this.navigationContext.pkValues){
-        this.editCultivo();
-      } else {
-        this.createCultivo();
-      }
+//       if(this.navigationContext.pkValues){
+//         this.editGanado();
+//       } else {
+//         this.createGanado();
+//       }
     };
 
-    this.view.doLayout = () => {
-      const frmHeight = this.view.frame.height;
-      if(frmHeight > 0){
-        this.view.flxContentContainer.height = (frmHeight - 70) + 'dp';
-      }
-    };
+//     this.view.doLayout = () => {
+//       const frmHeight = this.view.frame.height;
+//       if(frmHeight > 0){
+//         this.view.flxContentContainer.height = (frmHeight - 70) + 'dp';
+//       }
+//     };
   },
 
   onPreShow(){
@@ -69,7 +69,7 @@ define({
     }
 
   },
-
+  
   initCultivo(){
     this.view.lblTimestamp.text = this.cultivo.TimeStamp;
     this.view.tfCodigo.text = this.cultivo.Code;
@@ -89,7 +89,7 @@ define({
     var time = hoy.getHours() + ":" + hoy.getMinutes() + ":" + hoy.getSeconds();
     var fechaActual = date + ' ' + time;
 
-
+    
     mbaas.invokeOperation(globals.SERVICE, 'ActualizarCultivo', {}, {
       TimeStamp: this.view.lblTimestamp.text,
       Code: this.view.tfCodigo.text,
@@ -99,7 +99,7 @@ define({
       SonstigeNutzung: this.view.cbOtrosUsos.value,
       SonstigeEinheit: this.view.cbOtraUnidad.value,
       Anmerkung: this.view.taComentario.text,
-
+      
       WJahrBegin: fechaInicioPeriodo,
       WJahrEnde: fechaFinPeriodo,
       ErfasstAm: fechaActual,
@@ -116,76 +116,18 @@ define({
           FK_Art: 3,
           Bezeichnung: this.view.tfNombre.text,
           FK_User: globals.ID_USUARIO
-        }).then(() => {
-          new voltmx.mvc.Navigation('frmCultivo').navigate();
-        }).catch((error) => {
-          alert(error.errmsg);
-          voltmx.print(error);
-        });
+        }).then(() => alert('Record updated successfully')).catch((error) => alert(JSON.stringify(error)));
       } else {
-        alert('The current record was not updated.');
+        alert('The current record was not updated');
         this.initCultivo();
       }
     }).catch((error) => {
-      alert(error.errmsg);
-      voltmx.print(error);
+      alert(JSON.stringify(error));
     });
   },
-
+  
   createCultivo(){
-    var hoy = new Date();
-    var fechaInicioPeriodo = hoy.getFullYear().toString() + "-01-01";
-    var fechaFinPeriodo = hoy.getFullYear().toString() + "-12-31";
-    var date = hoy.getFullYear() + '-' + (hoy.getMonth() + 1) + '-' + hoy.getDate();
-    var time = hoy.getHours() + ":" + hoy.getMinutes() + ":" + hoy.getSeconds();
-    var fechaActual = date + ' ' + time;
 
-    const code = this.view.tfCodigo.text;
-    const name = this.view.tfNombre.text;
-    const category = this.view.cmpCategoriaCultivo.selection;
-
-    const pkValue = utils.getUniqueId();
-    
-    if(code && name && category && category !== '0'){
-      mbaas.invokeOperation(globals.SERVICE, 'AltaCultivo', {}, {
-        PK_Kulturstamm: pkValue,
-        Code: this.view.tfCodigo.text,
-        Bezeichnung: this.view.tfNombre.text,
-        ErfasstAm: fechaActual,
-        Del: false,
-        FK_Kulturkategorie: voltmx.visualizer.toNumber(this.view.cmpCategoriaCultivo.selection),
-        WJahrBegin: fechaInicioPeriodo,
-        WJahrEnde: fechaFinPeriodo,
-        HauptKultur: this.view.cbCultivoPrincipal.value,
-        FK_User: globals.ID_USUARIO,
-        SonstigeNutzung: this.view.cbOtrosUsos.value,
-        SonstigeEinheit: this.view.cbOtraUnidad.value,
-        Anmerkung: this.view.taComentario.text,
-        FK_EinheitErtrag: globals.UNIT_INCOME
-      }).then((results) => {
-        if(results.TimeStamp){
-          this.view.lblTimestamp.text = results.TimeStamp;
-          mbaas.invokeOperation(globals.SERVICE, 'ActualizarTraduccionElemento', {}, {
-            FK: pkValue,
-            FK_Art: 3,
-            Bezeichnung: this.view.tfNombre.text,
-            FK_User: globals.ID_USUARIO
-          }).then(() => {
-            new voltmx.mvc.Navigation('frmCultivo').navigate();
-          }).catch((error) => {
-            alert(error.errmsg);
-            voltmx.print(error);
-          });
-        } else {
-          alert('No Cultivo was created.');
-        }
-      }).catch((error) => {
-        alert(error.errmsg);
-        voltmx.print(error);
-      });      
-    } else {
-      alert('The fields Codígo, Nombre and Categoria de Cultivo are required.');
-    }
   }
 
 });

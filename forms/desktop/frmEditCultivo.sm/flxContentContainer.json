@@ -2,7 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "525dp"
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -18,49 +22,49 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_skin_": "s0f423dbc60b4c6d9a55d2662bdfb572",
     "_top_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": true,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "tfCodigo",
-        "tfNombre",
-        "cmpCategoriaCultivo",
-        "cbCultivoPrincipal",
-        "cbOtrosUsos",
-        "cbOtraUnidad",
-        "taComentario"
+        "lblTimestamp",
+        "flxContent",
+        "flxSpacer"
     ],
     "clipbounds": true,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "flxContent",
+    "horizontalscrollindicator": true,
+    "id": "flxContentContainer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dbaff57417374905805e6fa251708dbf",
+    "kuid": "fa562da317be4cb7893825d64de75b0b",
     "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxContentContainer",
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "frmEditCultivo",
     "pf": "frmEditCultivo",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 2,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1
 }

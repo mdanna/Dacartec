@@ -2,7 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "525dp"
+        "value": "140dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -21,40 +25,51 @@
     "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
     "_top_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
     "children": [
-        "tfCodigo",
-        "tfNombre",
-        "cmpCategoriaCultivo",
-        "cbCultivoPrincipal",
-        "cbOtrosUsos",
-        "cbOtraUnidad",
-        "taComentario"
+        "flxSearch",
+        "flxButtons"
     ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxContent",
+    "id": "SearchAreaGanado",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dbaff57417374905805e6fa251708dbf",
-    "layouttype": 4,
+    "kuid": "j989ecfa2d964f9aab4bbad31b783e88",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxContentContainer",
-    "pf": "frmEditCultivo",
+    "parent": "userwidgetmodel",
+    "pf": "userwidgetmodel",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "150dp"
+            }
+        },
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "220dp"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "290dp"
+            },
+            "layoutType": 2
+        }
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,

@@ -26,48 +26,23 @@ define({
     //you put here the definition of the event handlers
 
     this.view.doLayout = () => {
-      this.resizeResultadosCultivos();
+      this.resizeResultadosGanado();
     };
-
+    
     eventManager.subscribe(globals.EVENT_DELETE, ({datasetName, pkValues}) => {
-      if(datasetName === 'Cultivo'){
-
-        var hoy = new Date();
-        var fechaInicioPeriodo = hoy.getFullYear().toString() + "-01-01";
-        var fechaFinPeriodo = hoy.getFullYear().toString() + "-12-31";
-        var date = hoy.getFullYear() + '-' + (hoy.getMonth() + 1) + '-' + hoy.getDate();
-        var time = hoy.getHours() + ":" + hoy.getMinutes() + ":" + hoy.getSeconds();
-        var fechaActual = date + ' ' + time;
-
-
-        const pkValue = pkValues.PK_KulturStamm;
-        mbaas.invokeOperation(globals.SERVICE, 'EliminarcultivoTabla', {}, {
-          PK_Kulturstamm: pkValue,
-          FK_UngueltigVon: globals.ID_USUARIO,
-          FK_User: globals.ID_USUARIO,
-          UngueltigAb: fechaActual
-        }).then((results) => {
-          this.view.cmpSearchAreaCultivo.resetSearchFields();
-          eventManager.publish(globals.EVENT_SEARCH, {
-            datasetName: 'Cultivo',
-            searchArgs: this.view.cmpResultsCultivo.defaultArgs   
-          });
-        }).error((error) => {
-          voltmx.print(error);
-          alert(error.errmsg);
-        });
-
+      if(datasetName === 'Ganado'){
+        alert(`delete ${JSON.stringify({pkValues})}`);
       }
     });
-
+    
     eventManager.subscribe(globals.EVENT_EDIT, ({datasetName, pkValues}) => {
-      if(datasetName === 'Cultivo'){
-        new voltmx.mvc.Navigation('frmEditCultivo').navigate({pkValues});
+      if(datasetName === 'Ganado'){
+        new voltmx.mvc.Navigation('frmEditGanado').navigate({pkValues});
       }
     });
-
+    
     this.view.cmpSimpleHeader.onClickLeft = () => new voltmx.mvc.Navigation('frmHome').navigate();
-    this.view.cmpSimpleHeader.onClickRight = () => new voltmx.mvc.Navigation('frmEditCultivo').navigate({pkValues: null});
+    this.view.cmpSimpleHeader.onClickRight = () => new voltmx.mvc.Navigation('frmEditGanado').navigate({pkValues: null});
 
   },
 
@@ -87,20 +62,20 @@ define({
 
   },
 
-  resizeResultadosCultivos(){
+  resizeResultadosGanado(){
     const frmHeight = this.view.frame.height;
     let top;
     const currentBreakpoint = voltmx.application.getCurrentBreakpoint();
     if(currentBreakpoint === 600){
-      top = 430;
+      top = 360;
     } else if(currentBreakpoint === 1200){
       top = 290;
     } else {
       top = 220;
     }
-
+    
     if(frmHeight > 0){
-      this.view.cmpResultsCultivo.height = (frmHeight - top) + 'dp';
+      this.view.cmpResultsGanado.height = (frmHeight - top) + 'dp';
     }
   }
 });

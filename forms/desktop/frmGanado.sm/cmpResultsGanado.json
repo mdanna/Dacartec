@@ -1,0 +1,128 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_top_": {
+        "type": "string",
+        "value": "360dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "apiName": "Ganado_SEARCH",
+        "columns": {
+            "data": [
+                {
+                    "hidden": "",
+                    "key": "code",
+                    "name": "Código"
+                },
+                {
+                    "hidden": "",
+                    "key": "tiergattung",
+                    "name": "Ganado"
+                },
+                {
+                    "hidden": "",
+                    "key": "Bezeichnung",
+                    "name": "Categoria de ganado"
+                }
+            ],
+            "schema": [
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "key",
+                    "columnHeaderType": "text",
+                    "columnID": "key",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "c8aa55f803e243a3a258ea7d80795ba6"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "name",
+                    "columnHeaderType": "text",
+                    "columnID": "name",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "jc1253dcb6f94b02b8946471b0b84774"
+                },
+                {
+                    "columnHeaderTemplate": null,
+                    "columnHeaderText": "hidden",
+                    "columnHeaderType": "text",
+                    "columnID": "hidden",
+                    "columnText": "Not Defined",
+                    "columnType": "text",
+                    "kuid": "f691f589fe2e4ae595ee2469e5370793"
+                }
+            ]
+        },
+        "datasetName": "Ganado",
+        "defaultArgs": "{\n  \"Code\": \"\", \n  \"Bezeichnung\": \"\", \n  \"FK_Tiergattung\": \"0\"\n}",
+        "defaultSortColumn": "tiergattung",
+        "primaryKey": "pk_tierstamm"
+    },
+    "id": "cmpResultsGanado",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "d9d8209183a4409ba1601f4288bbaf19",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmGanado",
+    "pf": "frmGanado",
+    "responsiveData": {
+        "b1": {
+            "top": {
+                "type": "string",
+                "value": "220dp"
+            }
+        },
+        "b2": {
+            "top": {
+                "type": "string",
+                "value": "290dp"
+            }
+        },
+        "b3": {
+            "width": {
+                "type": "string",
+                "value": "100%"
+            }
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "i16261a5259a45dabf6e79c29d5b2a6d",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

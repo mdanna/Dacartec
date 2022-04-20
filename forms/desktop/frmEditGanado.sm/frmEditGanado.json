@@ -30,31 +30,26 @@
     },
     "breakpointInfo": {
         "b1": {
-            "width": 1400
+            "width": 1366
         },
         "b2": {
-            "width": 1200
+            "width": 1024
         },
         "b3": {
-            "width": 600
+            "width": 640
         }
     },
     "canUpdateUI": true,
     "canvasWidth": 1200,
     "children": [
-        "cmpPageHeader",
-        "flxContentContainer"
+        "cmpPageHeader"
     ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {
             "channel": "desktop",
-            "name": "frmEditCultivoController"
+            "name": "frmEditGanadoController"
         }
-    },
-    "currentBreakpoint": {
-        "kuid": "b3",
-        "width": 600
     },
     "currentLocale": "default",
     "desktopweb": {
@@ -63,7 +58,7 @@
     "device": "desktopweb",
     "displayorientation": 1,
     "enabledforidletimeout": false,
-    "id": "frmEditCultivo",
+    "id": "frmEditGanado",
     "info": null,
     "initdone": false,
     "inputaccessoryviewtype": 4,
@@ -86,8 +81,8 @@
     "kiosk": {
         "needAppMenu": false
     },
-    "kuid": "g862dc724aba4b0d84ac33041f500c75",
-    "layouttype": 4,
+    "kuid": "e3d1b807ac4c429d8a69f392e1ee9d51",
+    "layouttype": 2,
     "name": "kony.ui.Form2",
     "needappmenu": false,
     "paddinginpixel": false,

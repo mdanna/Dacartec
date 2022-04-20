@@ -1,18 +1,18 @@
 {
-    "classname": "SearchAreaCultivo",
+    "classname": "SearchAreaGanado",
     "definitions": {
         "apis": {
             "custom": [
                 {
                     "group": "General",
-                    "kuid": "dbe0f3c0f78d4f9e91d278af5b133f02",
+                    "kuid": "c22a57ac777b407ca18b38050d07faea",
                     "paramList": [],
                     "propertyKey": "resetSearchFields",
                     "pw": {
                         "displayName": "resetSearchFields",
                         "uiRepresentation": "Label-Label-Button-Button"
                     },
-                    "srcWgtKUID": "d0e435405d6a494bad01b8b66b96fa8d",
+                    "srcWgtKUID": "j989ecfa2d964f9aab4bbad31b783e88",
                     "type": "event"
                 }
             ],

@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "140dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
+    "_top_": {
+        "type": "string",
+        "value": "70dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {},
+    "id": "cmpSearchAreaGanado",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "b0345944c400464ea74c96efe3d99b3b",
+    "layouttype": 2,
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "frmGanado",
+    "pf": "frmGanado",
+    "responsiveData": {
+        "b1": {
+            "height": {
+                "type": "string",
+                "value": "150dp"
+            }
+        },
+        "b2": {
+            "height": {
+                "type": "string",
+                "value": "220dp"
+            }
+        },
+        "b3": {
+            "height": {
+                "type": "string",
+                "value": "290dp"
+            },
+            "layoutType": 2
+        }
+    },
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "j989ecfa2d964f9aab4bbad31b783e88",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

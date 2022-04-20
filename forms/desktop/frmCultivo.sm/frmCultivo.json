@@ -48,7 +48,7 @@
     "canvasWidth": 1200,
     "children": [
         "cmpSimpleHeader",
-        "cmpSearchArea",
+        "cmpSearchAreaCultivo",
         "cmpResultsCultivo"
     ],
     "containerweight": 100,

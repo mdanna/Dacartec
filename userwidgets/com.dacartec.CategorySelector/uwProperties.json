@@ -1,0 +1,301 @@
+{
+    "classname": "CategorySelector",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b38932948e7c4293a32b56b12f471583",
+                    "paramList": [],
+                    "propertyKey": "reset",
+                    "pw": {
+                        "displayName": "reset",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "aaca34e8b9704126ab2e3ba140da52cb",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": {
+                        "data": [
+                            {
+                                "code": "0",
+                                "id": "-",
+                                "name": "-"
+                            },
+                            {
+                                "code": "7000290",
+                                "id": "1",
+                                "name": "Hortalizas"
+                            },
+                            {
+                                "code": "7000291",
+                                "id": "2",
+                                "name": "Raices y tubérculos"
+                            },
+                            {
+                                "code": "7000292",
+                                "id": "3",
+                                "name": "Semillas y viveros"
+                            },
+                            {
+                                "code": "7000293",
+                                "id": "4",
+                                "name": "Aromáticas"
+                            },
+                            {
+                                "code": "7000294",
+                                "id": "5",
+                                "name": "Frutales"
+                            },
+                            {
+                                "code": "7000295",
+                                "id": "6",
+                                "name": "Cultivos industriales"
+                            },
+                            {
+                                "code": "7000296",
+                                "id": "7",
+                                "name": "Otros cultivos vivaces"
+                            },
+                            {
+                                "code": "7000297",
+                                "id": "8",
+                                "name": "Frutos secos"
+                            },
+                            {
+                                "code": "7000298",
+                                "id": "9",
+                                "name": "Cítricos"
+                            },
+                            {
+                                "code": "7000299",
+                                "id": "10",
+                                "name": "Olivar"
+                            },
+                            {
+                                "code": "7000300",
+                                "id": "11",
+                                "name": "Viñedo"
+                            },
+                            {
+                                "code": "7000301",
+                                "id": "12",
+                                "name": "Sub-contractor"
+                            },
+                            {
+                                "code": "7000302",
+                                "id": "13",
+                                "name": "Leguminosas"
+                            },
+                            {
+                                "code": "7000303",
+                                "id": "14",
+                                "name": "Pastos, praderas y forrajes"
+                            },
+                            {
+                                "code": "7000304",
+                                "id": "15",
+                                "name": "Recolección silvestre"
+                            },
+                            {
+                                "code": "7000305",
+                                "id": "16",
+                                "name": "Flores y plantas ornamentales"
+                            },
+                            {
+                                "code": "7000306",
+                                "id": "17",
+                                "name": "Setas y hongos"
+                            },
+                            {
+                                "code": "7000307",
+                                "id": "0",
+                                "name": "Zonas naturales no cultivadas"
+                            },
+                            {
+                                "code": "7000976",
+                                "id": "18",
+                                "name": "Zona de pecoreo"
+                            },
+                            {
+                                "code": "7002194",
+                                "id": "19",
+                                "name": "Cereales"
+                            },
+                            {
+                                "code": "7002283",
+                                "id": "20",
+                                "name": "Zonas verdes y Jardines"
+                            },
+                            {
+                                "code": "7002287",
+                                "id": "21",
+                                "name": "Algas"
+                            }
+                        ],
+                        "schema": [
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "id",
+                                "columnHeaderType": "text",
+                                "columnID": "id",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "b117fb3cfd224f87aed6068fdca87d5b"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "code",
+                                "columnHeaderType": "text",
+                                "columnID": "code",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "j2887e5bad4d4ad1ba9c500769d31cd4"
+                            },
+                            {
+                                "columnHeaderTemplate": null,
+                                "columnHeaderText": "name",
+                                "columnHeaderType": "text",
+                                "columnID": "name",
+                                "columnText": "Not Defined",
+                                "columnType": "text",
+                                "kuid": "h805612d51f7450aae1be138afd92a5d"
+                            }
+                        ]
+                    },
+                    "group": "General",
+                    "kuid": "f97f953c42804d9395c076d9c8de7dd3",
+                    "originalPropertyKey": "values",
+                    "propertyIndex": 4,
+                    "propertyKey": "values",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "values",
+                        "uiRepresentation": "Label-DataGrid"
+                    },
+                    "srcWgtKUID": "aaca34e8b9704126ab2e3ba140da52cb",
+                    "type": "data grid",
+                    "value": 3
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "b95f7ad6197b481593a9c3cbc8481b10",
+                    "originalPropertyKey": "selection",
+                    "propertyIndex": 5,
+                    "propertyKey": "selection",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selection",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "aaca34e8b9704126ab2e3ba140da52cb",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e1377e02e0bf4297898371a5df009020",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "label",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "label",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblField",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "efa4429a7c0b4488b97fe294950ed0d5"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f5a76cd20efe42d0bb3c16b772248068",
+                    "originalPropertyKey": "selectedKey",
+                    "propertyIndex": 2,
+                    "propertyKey": "selectedKey",
+                    "pw": {
+                        "access": "readwrite",
+                        "isHiddenInTool": true,
+                        "srcWidget": "lbxValue"
+                    },
+                    "srcWgtKUID": "fcdb2d5d1ddc48fcb9892e55cb4ae9ae"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "g855644bea0a49c896c99de716b89b0f",
+                    "originalPropertyKey": "selectedKeys",
+                    "propertyIndex": 2,
+                    "propertyKey": "selectedKeys",
+                    "pw": {
+                        "access": "readwrite",
+                        "isHiddenInTool": true,
+                        "srcWidget": "lbxValue"
+                    },
+                    "srcWgtKUID": "fcdb2d5d1ddc48fcb9892e55cb4ae9ae"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e7ca6a70a2f74145b4ef1861c46ba066",
+                    "originalPropertyKey": "value",
+                    "propertyIndex": 3,
+                    "propertyKey": "listValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "widget",
+                        "defaultValue": 0,
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "listValue",
+                        "isDependentProp": true,
+                        "isHiddenInTool": false,
+                        "originalParentKey": "blur",
+                        "parentKey": "blur",
+                        "srcWidget": "lbxValue",
+                        "type": "integer",
+                        "uiRepresentation": "Label-Slider-Textbox",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "fcdb2d5d1ddc48fcb9892e55cb4ae9ae"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.dacartec",
+    "version": "1.0.0"
+}

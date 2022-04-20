@@ -36,6 +36,8 @@ define(function() {
               this.view.flxContent.height = (resultsHeight - 100) + 'dp';
             }
           };
+          
+          this.view.cmpPagination.datasetName = this.datasetName;
 
           this.initDone = true;
         }
@@ -50,7 +52,8 @@ define(function() {
         headerNames.forEach((header, index) => {
           //create an instance of SimpleListHeaderElement and add it to the flex
           const cellHeaderResults = new com.dacartec.CellHeaderResults({
-            id: 'cellHeaderResults' + index
+            id: 'cellHeaderResults' + index,
+            width: `${100 / headerKeys.length}%`
           }, {}, {});
           cellHeaderResults.displayValue = header;
           cellHeaderResults.codeValue = headerKeys[index];

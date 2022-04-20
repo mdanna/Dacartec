@@ -7,12 +7,11 @@ define(function() {
         if(!this.initDone){
           this.view.searchButton.onClick = () => {
             eventManager.publish(globals.EVENT_SEARCH, {
-              datasetName: 'Cultivo',
+              datasetName: 'Ganado',
               searchArgs: {
-                Code: this.view.tfCodigo.text || '0',
-                ProduktName: this.view.tfCultivo.text || null,
-                FK_Kulturkategorie: this.view.catCultivo.selection || '0',
-                Deleted: this.view.sdDeletedData.selectedKey === 'true'
+                Code: this.view.tfCodigo.text || '',
+                Bezeichnung: this.view.tfGanado.text || '',
+                FK_Tiergattung: this.view.catGanado.selection || '0'
               }
             });
           };
@@ -21,19 +20,18 @@ define(function() {
             this.resetSearchFields();
 
             eventManager.publish(globals.EVENT_SEARCH, {
-              datasetName: 'Cultivo',
+              datasetName: 'Ganado',
               searchArgs: {
-                Code: '0',
-                ProduktName: null,
-                FK_Kulturkategorie: null,
-                Deleted: false
-              }   
+                "Code": "", 
+                "Bezeichnung": "", 
+                "FK_Tiergattung": "0"
+              }
             });
           };
 
           this.initDone = true;
         }
-        
+
         this.resetSearchFields();
 
       };
@@ -41,9 +39,8 @@ define(function() {
 
     resetSearchFields(){
       this.view.tfCodigo.text = '';
-      this.view.tfCultivo.text = '';
-      this.view.sdDeletedData.selectedKey = 'false';
-      this.view.catCultivo.reset();
+      this.view.tfGanado.text = '';
+      this.view.catGanado.reset();
     },
 
     initGettersSetters() {}

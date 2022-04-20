@@ -2,7 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "525dp"
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -21,37 +25,25 @@
     "_skin_": "sd03c89a8dfd4de9a9052205232ae2a5",
     "_top_": {
         "type": "string",
-        "value": "50dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "300dp"
+        "value": "100%"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "centerx": {
-        "type": "string",
-        "value": "50%"
-    },
-    "children": [
-        "tfCodigo",
-        "tfNombre",
-        "cmpCategoriaCultivo",
-        "cbCultivoPrincipal",
-        "cbOtrosUsos",
-        "cbOtraUnidad",
-        "taComentario"
-    ],
+    "children": [],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxContent",
+    "id": "flxSpacer",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "dbaff57417374905805e6fa251708dbf",
-    "layouttype": 4,
+    "kuid": "h63db59ea41945eb89445d953c3a97cc",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
     "parent": "flxContentContainer",
     "pf": "frmEditCultivo",

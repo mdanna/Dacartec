@@ -5,25 +5,33 @@ define(function() {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
 
       this.view.preShow = () => {
-
+        
         if(!this.initDone){
-          this.view.flxBackground.onClick = () => this.toggle(false);
-
-          this.view.menuHeader.onClickLeft = () => {
-            this.toggle(false);
-          };
-          
-          this.view.segMenuItems.onRowClick = () => {
-            this.toggle(false);
-            this.onItemSelected(this.view.segMenuItems.selectedRowItems[0].key);
-          };
-
+          this.onInit();
           this.initDone = true;
         }
+        
+        this.onPreShow();
+      };
+
+    },
+
+    onInit(){
+      this.view.flxBackground.onClick = () => this.toggle(false);
+
+      this.view.menuHeader.onClickLeft = () => {
+        this.toggle(false);
+      };
+
+      this.view.segMenuItems.onRowClick = () => {
+        this.toggle(false);
+        this.onItemSelected(this.view.segMenuItems.selectedRowItems[0].key);
       };
 
     },
     
+    onPreShow(){},
+
     initGettersSetters() {},
 
     toggle(open){
@@ -48,10 +56,10 @@ define(function() {
         }
       });
     },
-    
+
     onItemSelected(key){
       voltmx.print(`Selected menu item ${key}`);
     }
-    
+
   };
 });

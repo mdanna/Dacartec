@@ -25,7 +25,7 @@
     "_skin_": "sc26303d5c154137ac3bab82118e77aa",
     "_top_": {
         "type": "string",
-        "value": "70dp"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -49,6 +49,9 @@
     "name": "kony.ui.FlexContainer",
     "parent": "flxLinks",
     "pf": "frmHome",
+    "responsiveData": {
+        "b1": {}
+    },
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
