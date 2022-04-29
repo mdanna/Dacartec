@@ -32,6 +32,14 @@ define({
   onPreShow(){
     this.view.txtUser.text = this.view.txtUser.text || voltmx.store.getItem('userid') || '';
     this.view.txtPassword.text = this.view.txtPassword.text || voltmx.store.getItem('password') || '';
+    
+    voltmx.application.showLoadingScreen(null, '', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, {}); 
+    voltmx.i18n.setCurrentLocaleAsync(voltmx.store.getItem(globals.KEY_LOCALE) || globals.DEFAULT_LOCALE, () => {
+      voltmx.application.dismissLoadingScreen();
+    }, () => {
+      voltmx.application.dismissLoadingScreen();
+      alert('Unable to set locale');
+    });
   }
   
   

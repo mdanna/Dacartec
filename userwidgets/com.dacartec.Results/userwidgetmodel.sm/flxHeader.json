@@ -34,7 +34,9 @@
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "CellHeaderResults"
+    ],
     "clipbounds": true,
     "containerweight": 100,
     "enablescrolling": true,

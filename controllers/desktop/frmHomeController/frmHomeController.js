@@ -13,7 +13,14 @@ define({
 	this.view.flxGanado.onClick = () => new voltmx.mvc.Navigation('frmGanado').navigate();
     
     this.view.cmpHamburgerMenu.onItemSelected = (key) => {
-      alert(key);
+      switch(key){
+        case 'locale':
+          new voltmx.mvc.Navigation('frmSetLanguage').navigate();
+          break;
+        default:
+          alert(key);
+          break;
+      }
     };
   }
 

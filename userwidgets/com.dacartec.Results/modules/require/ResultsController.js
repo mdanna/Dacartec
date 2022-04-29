@@ -28,6 +28,62 @@ define(function() {
               this.paginateData(1);
             }
           });
+          
+//           eventManager.subscribe(globals.EVENT_RESIZE, ({datasetName, column, start}) => {
+//             if(datasetName === this.datasetName){
+//               this.leftColumn = start ? column : null;
+//               if(this.leftColumn){
+                
+//                 let index = 0;
+//                 for(index = 0; index < this.columns.data.length; index++){
+//                   if(this.columns.data[index].key === column){
+//                     break;
+//                   }
+//                 }
+//                 if(index < this.columns.data.length - 1){
+//                   this.rightColumn = this.columns.data[index + 1].key;
+//                 } else {
+//                   this.leftColumn = null;
+//                   this.rightColumn = null;
+//                 }
+//               } else {
+//                 this.rightColumn = null;
+//               }
+//             }
+//           });
+          
+//           this.view.flxHeaderContainer.onTouchStart = (widgetRef, x, y) => {
+//             this.start = x;
+//           };
+          
+//           this.view.flxHeaderContainer.onTouchMove = (widgetRef, x, y) => {
+//             if(this.leftColumn && this.rightColumn){
+//               //do resize
+//               const delta = x - this.start;
+//               const leftCellHeader = this.view.flxHeader.widgets().find((cellHeader) => cellHeader.codeValue === this.leftColumn);
+//               const rightCellHeader = this.view.flxHeader.widgets().find((cellHeader) => cellHeader.codeValue === this.rightColumn);
+              
+//               let leftOldWidth;
+//               if(leftCellHeader.width.indexOf('%') > 0) {
+//                 leftOldWidth = this.view.flxHeader.frame.width * Number(leftCellHeader.width.replace('%', '')) / 100;
+//               } else if(leftCellHeader.width.indexOf('dp') > 0) {
+//                 leftOldWidth = Number(leftCellHeader.width.replace('dp', ''));
+//               } else {
+//                 leftOldWidth = Number(leftCellHeader.width);
+//               }
+//               let rightOldWidth;
+//               if(rightCellHeader.width.indexOf('%') > 0) {
+//                 rightOldWidth = this.view.flxHeader.frame.width * Number(rightCellHeader.width.replace('%', '')) / 100;
+//               } else if(rightCellHeader.width.indexOf('dp') > 0) {
+//                 rightOldWidth = Number(rightCellHeader.width.replace('dp', ''));
+//               } else {
+//                 rightOldWidth = Number(rightCellHeader.width);
+//               }
+              
+//               leftCellHeader.width = Math.round(leftOldWidth + delta) + 'dp';
+//               rightCellHeader.width = Math.round(rightOldWidth - delta) + 'dp';
+//             }
+//           };
 
           this.view.doLayout = () => {
             const resultsHeight = this.view.frame.height;

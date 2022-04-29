@@ -41,43 +41,29 @@
                 {
                     "icon": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
+                        "text": ""
                     },
                     "item": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Item 1"
+                        "text": "Change Locale"
                     },
                     "key": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "key1"
+                        "text": "locale"
                     }
                 },
                 {
                     "icon": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
+                        "text": ""
                     },
                     "item": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Item 2"
+                        "text": "Configuration"
                     },
                     "key": {
                         "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "key2"
-                    }
-                },
-                {
-                    "icon": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": ""
-                    },
-                    "item": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "Item 3"
-                    },
-                    "key": {
-                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
-                        "text": "key3"
+                        "text": "config"
                     }
                 }
             ],

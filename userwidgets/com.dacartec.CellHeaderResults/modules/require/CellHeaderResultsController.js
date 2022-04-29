@@ -26,6 +26,26 @@ define(function() {
               column: this.codeValue,
               isAscending
             });
+
+//             this.view.flxClickable.onTouchStart = () => {
+//               this.view.lblArrowLeft.isVisible = true;
+//               this.view.lblArrowRight.isVisible = true;
+//               eventManager.publish(globals.EVENT_RESIZE, {
+//                 datasetName: this.datasetName,
+//                 column: this.codeValue,
+//                 start: true
+//               });
+//             };
+
+//             this.view.flxClickable.onTouchEnd = () => {
+//               this.view.lblArrowLeft.isVisible = false;
+//               this.view.lblArrowRight.isVisible = false;
+//               eventManager.publish(globals.EVENT_RESIZE, {
+//                 datasetName: this.datasetName,
+//                 column: this.codeValue,
+//                 start: false
+//               });
+//             };
           };
 
           this.initDone = true;
@@ -48,7 +68,7 @@ define(function() {
         this._codeValue = value;
       });
     },
-
+    
     setSortStatus(sortStatus){
       switch(sortStatus){
         case globals.SORT_ASC:

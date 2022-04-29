@@ -2,12 +2,8 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "100%"
-    },
-    "_left_": {
-        "type": "string",
-        "value": "0%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_margin_": [
         1,
@@ -21,15 +17,15 @@
         0,
         0
     ],
-    "_skin_": "s6dd045eefb84077a8ed99f5cdb553aa",
-    "_text_": "",
-    "_top_": {
-        "type": "string",
-        "value": "0dp"
+    "_right_": {
+        "type": "number",
+        "value": "0"
     },
+    "_skin_": "sf01752f55174e0cb9f12e75cd3228aa",
+    "_text_": "",
     "_width_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_wrapping_": 2,
     "android": {
@@ -44,8 +40,8 @@
         "value": "50%"
     },
     "containerweight": 100,
-    "contentalignment": 5,
-    "id": "lblSortAscending",
+    "contentalignment": 4,
+    "id": "lblArrowRight",
     "info": null,
     "ipad": {
         "psp": {
@@ -59,9 +55,9 @@
     },
     "iscustomlayout": false,
     "isvisible": false,
-    "kuid": "c638d09ffb704e218f843104dd410cb8",
+    "kuid": "fb753548698547f290a2de12e7ee314b",
     "name": "kony.ui.Label",
-    "parent": "flxIcon",
+    "parent": "flxClickable",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

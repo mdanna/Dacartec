@@ -2,12 +2,12 @@
     "@class": "com.kony.gen.viz.model.component.KVizLabel",
     "DNDConfig": null,
     "_height_": {
-        "type": "string",
-        "value": "100%"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "199dp"
     },
     "_margin_": [
         1,
@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_skin_": "s6dd045eefb84077a8ed99f5cdb553aa",
-    "_text_": "",
+    "_skin_": "s6cd4815628049989c302d8b7b45119a",
+    "_text_": "Set the locale",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "82dp"
     },
     "_width_": {
         "type": "string",
@@ -39,13 +39,13 @@
         }
     },
     "canUpdateUI": true,
-    "centery": {
+    "centerx": {
         "type": "string",
         "value": "50%"
     },
     "containerweight": 100,
     "contentalignment": 5,
-    "id": "lblSortAscending",
+    "id": "lblTitle",
     "info": null,
     "ipad": {
         "psp": {
@@ -58,11 +58,11 @@
         }
     },
     "iscustomlayout": false,
-    "isvisible": false,
-    "kuid": "c638d09ffb704e218f843104dd410cb8",
+    "isvisible": true,
+    "kuid": "f4a0933f90fc4c118a979bb337c11d08",
     "name": "kony.ui.Label",
-    "parent": "flxIcon",
-    "pf": "userwidgetmodel",
+    "parent": "flxLocale",
+    "pf": "frmSetLanguage",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "tooltip": "",

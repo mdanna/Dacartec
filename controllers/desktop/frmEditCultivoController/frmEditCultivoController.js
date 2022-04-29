@@ -166,7 +166,7 @@ define({
             voltmx.print(error);
           });
         } else {
-          alert('No Cultivo was created.');
+          alert(voltmx.i18n.getLocalizedString('msg_no_cultivo'));
         }
       }).catch((error) => {
         alert(error.errmsg);

@@ -13,7 +13,11 @@ const globals = {
   EVENT_DELETE: 'evt_delete',
   EVENT_EDIT: 'evt_edit',
   EVENT_SORT: 'evt_sort',
+  EVENT_RESIZE: 'evt_resize',
   
   SORT_ASC: 'asc',
-  SORT_DESC: 'desc'
+  SORT_DESC: 'desc',
+  
+  DEFAULT_LOCALE: 'en',
+  KEY_LOCALE: 'keyLocale'
 };
